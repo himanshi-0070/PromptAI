@@ -1,0 +1,5 @@
+/* App.css — intentionally minimal.
+ * All global styles, design tokens, and animations live in index.css.
+ * This file exists only for any component-scoped overrides that cannot
+ * be expressed in Tailwind utility classes.
+ */

@@ -1,0 +1,448 @@
+[2026-06-29 23:27:16] ERROR: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-06-30 08:02:47] ERROR: MongoDB connection failed: bad auth : authentication failed
+[2026-06-30 08:40:53] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:41:01] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:41:13] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:51:53] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:52:07] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:52:22] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:52:33] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:52:42] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:53:02] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:53:27] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:54:37] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:55:09] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:55:28] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:59:05] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 09:02:46] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 20:22:38] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 20:24:50] ERROR: [DB] MongoDB connection failed: Server selection timed out after 15000 ms
+[2026-06-30 20:28:46] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-07-01 16:16:03] ERROR: [GenerationService] ════════════════════════════════
+[2026-07-01 16:16:03] ERROR: [GenerationService] Pipeline FAILED after 167690ms
+[2026-07-01 16:16:03] ERROR: [GenerationService] Error: File "frontend/public/hero-bg.jpg" has empty or missing content. Every file must have complete, working content.
+[2026-07-01 16:16:03] ERROR: [GenerationService] ════════════════════════════════
+[2026-07-01 16:16:03] ERROR: [GenerationController] Generation failed: File "frontend/public/hero-bg.jpg" has empty or missing content. Every file must have complete, working content.
+[2026-07-01 17:09:21] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:09:21] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:19:53] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:19:53] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:01] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:01] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:09] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:09] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:30] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:30] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:21:15] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:21:15] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:23:42] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:23:42] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:25:51] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:25:53] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:26:12] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:27:31] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:45:38] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:45:38] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:45:50] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:45:50] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:48:46] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:48:46] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:48:54] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:48:54] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:49:15] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:49:15] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:49:20] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:49:53] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:50:58] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:51:05] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 18:07:19] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 18:19:36] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-03 16:48:58] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-03 16:51:05] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-03 16:56:11] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:56:11] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:56:12] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:09] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:09] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:10] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:10] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:10] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:11] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)

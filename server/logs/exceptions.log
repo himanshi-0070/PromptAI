@@ -1,0 +1,17 @@
+[2026-07-01 16:28:14] ERROR: Error: Cannot find module './utils/logger'
+Require stack:
+- C:\Users\Himanshi singh\Downloads\PromptAI\server\services\ChatService.js
+- C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\chat.controller.js
+- C:\Users\Himanshi singh\Downloads\PromptAI\server\routes\chat.routes.js
+- C:\Users\Himanshi singh\Downloads\PromptAI\server\routes\index.js
+- C:\Users\Himanshi singh\Downloads\PromptAI\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\ChatService.js:5:16)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)

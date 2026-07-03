@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme('colors.darkcard'); /* Dark background for the track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme('colors.primary.600'); /* Primary color for the thumb */
+  border-radius: 10px;
+  border: 2px solid theme('colors.darkcard'); /* Border to match track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.primary.500'); /* Lighter primary on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.primary.600') theme('colors.darkcard');
+}

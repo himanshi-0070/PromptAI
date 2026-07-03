@@ -1,0 +1,1344 @@
+[2026-06-29 23:27:16] ERROR: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-06-30 08:02:47] ERROR: MongoDB connection failed: bad auth : authentication failed
+[2026-06-30 08:04:27] INFO: MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-06-30 08:04:27] INFO: Write permissions verified for: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 08:04:27] INFO: ForgeAI server running on port 5000 [development]
+[2026-06-30 08:04:27] INFO: Client URL: http://localhost:5173
+[2026-06-30 08:33:47] WARN: MongoDB disconnected. Attempting to reconnect...
+[2026-06-30 08:40:53] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:41:01] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:41:13] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:51:53] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:52:07] ERROR: MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:52:22] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:52:33] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:52:42] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:53:02] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:53:27] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 08:53:27] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:54:37] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 08:54:37] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:55:09] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 08:55:09] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:55:28] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 08:55:28] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 08:59:05] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 08:59:05] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 09:02:46] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 09:02:46] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 20:22:38] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:22:38] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 20:24:35] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:24:50] ERROR: [DB] MongoDB connection failed: Server selection timed out after 15000 ms
+[2026-06-30 20:28:46] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:28:46] ERROR: [DB] MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.promptai.6vlse7k.mongodb.net
+[2026-06-30 20:29:07] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:29:11] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-06-30 20:29:11] INFO: [DB] Database: promptai
+[2026-06-30 20:29:11] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:29:11] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:29:11] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:29:11] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 20:29:41] DEBUG: GET /api/v1/health 200 5.025 ms — 180 bytes
+[2026-06-30 20:29:49] DEBUG: GET /api/v1/status 200 78.563 ms — 571 bytes
+[2026-06-30 20:30:09] DEBUG: GET /api/v1/nonexistent-route 404 2.255 ms — 87 bytes
+[2026-06-30 20:30:09] DEBUG: GET /api/v1/nonexistent-route 404 0.248 ms — 87 bytes
+[2026-06-30 20:30:11] DEBUG: POST /api/v1/generate 422 6.014 ms — 141 bytes
+[2026-06-30 20:30:11] DEBUG: POST /api/v1/generate 422 1.669 ms — 141 bytes
+[2026-06-30 20:36:12] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:36:15] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-06-30 20:36:15] INFO: [DB] Database: promptai
+[2026-06-30 20:36:15] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:36:15] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:36:15] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:36:15] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 20:37:27] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:37:32] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-06-30 20:37:32] INFO: [DB] Database: promptai
+[2026-06-30 20:37:32] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:37:32] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:37:32] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:37:32] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 20:38:15] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-06-30 20:38:15] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:38:34] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-06-30 20:38:34] INFO: [DB] Database: promptai
+[2026-06-30 20:38:34] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:38:34] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:38:34] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:38:34] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 20:42:22] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-06-30 20:42:22] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:42:39] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-06-30 20:42:39] INFO: [DB] Database: promptai
+[2026-06-30 20:42:39] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:42:39] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:42:39] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:42:39] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 20:44:17] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-06-30 20:44:18] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:44:34] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-06-30 20:44:34] INFO: [DB] Database: promptai
+[2026-06-30 20:44:34] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:44:34] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:44:34] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:44:34] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 20:46:07] INFO: [PlannerService] Stage 1: Analyzing intent...
+[2026-06-30 20:46:07] INFO: [PlannerService] Stage 2: Detected app type: "restaurant". Extracting requirements...
+[2026-06-30 20:46:07] INFO: [PlannerService] Stage 3: Planning technology stack...
+[2026-06-30 20:46:07] INFO: [PlannerService] Stage 4: Planning dependencies...
+[2026-06-30 20:46:07] INFO: [PlannerService] Stage 5: Planning architecture...
+[2026-06-30 20:46:07] INFO: [PlannerService] Stage 6: Planning folder structure...
+[2026-06-30 20:46:07] INFO: [PlannerService] Specification complete. App: "Restaurant App", Pages: 9, APIs: 8
+[2026-06-30 20:46:07] INFO: [PromptBuilderService] Building generation prompt...
+[2026-06-30 20:46:07] INFO: [PromptBuilderService] generation prompt built. Chars: 8680, Est. tokens: ~2170
+[2026-06-30 20:47:17] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-06-30 20:47:17] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:47:20] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-06-30 20:47:20] INFO: [DB] Database: promptai
+[2026-06-30 20:47:20] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:47:20] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:47:20] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:47:20] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9 passed. 3 files validated.
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 10: Starting review pass...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 10 complete. Files: 3, Warnings: 0
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9 passed. 3 files validated.
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 10: Starting review pass...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 10 complete. Files: 3, Warnings: 0
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9 passed. 3 files validated.
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 10: Starting review pass...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 10 complete. Files: 3, Warnings: 0
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 9 passed. 3 files validated.
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 10: Starting review pass...
+[2026-06-30 20:47:27] INFO: [ResponseParserService] Stage 10 complete. Files: 3, Warnings: 0
+[2026-06-30 20:47:50] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-06-30 20:47:50] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:47:54] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-06-30 20:47:54] INFO: [DB] Database: promptai
+[2026-06-30 20:47:54] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:47:54] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:47:54] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:47:54] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 20:48:02] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-06-30 20:48:13] INFO: [GenerationController] New generation request. Prompt: "Build a simple task manager with todos, categories, and dark theme..."
+[2026-06-30 20:48:13] INFO: [GenerationService] ════════════════════════════════
+[2026-06-30 20:48:13] INFO: [GenerationService] Pipeline START: generateProject
+[2026-06-30 20:48:13] INFO: [GenerationService] ════════════════════════════════
+[2026-06-30 20:48:13] INFO: [GenerationService] ── Stage 1-6: PlannerService — analyzing intent and architecture
+[2026-06-30 20:48:13] INFO: [PlannerService] Stage 1: Analyzing intent...
+[2026-06-30 20:48:13] INFO: [PlannerService] Stage 2: Detected app type: "todo". Extracting requirements...
+[2026-06-30 20:48:13] INFO: [PlannerService] Stage 3: Planning technology stack...
+[2026-06-30 20:48:13] INFO: [PlannerService] Stage 4: Planning dependencies...
+[2026-06-30 20:48:13] INFO: [PlannerService] Stage 5: Planning architecture...
+[2026-06-30 20:48:13] INFO: [PlannerService] Stage 6: Planning folder structure...
+[2026-06-30 20:48:13] INFO: [PlannerService] Specification complete. App: "Task Manager", Pages: 7, APIs: 10
+[2026-06-30 20:48:13] INFO: [GenerationService] ✓ Stage 1-6 complete. appType: todo, pages: 7
+[2026-06-30 20:48:13] INFO: [GenerationService] ── Stage 7: PromptBuilderService — constructing enriched prompt
+[2026-06-30 20:48:13] INFO: [PromptBuilderService] Building generation prompt...
+[2026-06-30 20:48:13] INFO: [PromptBuilderService] generation prompt built. Chars: 8378, Est. tokens: ~2095
+[2026-06-30 20:48:13] INFO: [GenerationService] ✓ Stage 7 complete. prompt length: 8378 chars
+[2026-06-30 20:48:13] INFO: [GenerationService] ── Stage 8: AIProvider — calling Gemini with enriched prompt
+[2026-06-30 20:48:13] INFO: [GeminiProvider] Generation attempt 1/3...
+[2026-06-30 20:50:13] DEBUG: POST /api/v1/generate - - ms — - bytes
+[2026-06-30 20:51:23] INFO: [GeminiProvider] Response received in 189954ms (154945 chars)
+[2026-06-30 20:51:23] INFO: [GenerationService] ✓ Stage 8 complete. Gemini responded in 189954ms
+[2026-06-30 20:51:23] INFO: [GenerationService] ── Stage 9-10: ResponseParserService — validating and normalizing response
+[2026-06-30 20:51:23] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-06-30 20:51:23] INFO: [ResponseParserService] Stage 9 passed. 60 files validated.
+[2026-06-30 20:51:23] INFO: [ResponseParserService] Stage 10: Starting review pass...
+[2026-06-30 20:51:23] INFO: [ResponseParserService] Stage 10 complete. Files: 60, Warnings: 0
+[2026-06-30 20:51:23] INFO: [GenerationService] ✓ Stage 9-10 complete. 60 files validated
+[2026-06-30 20:51:23] INFO: [GenerationService] ── Stage 11: ProjectWriterService — writing files to disk
+[2026-06-30 20:51:23] INFO: [ProjectWriterService] Writing project a5b95516-a53a-4ac5-b580-df61beba9acf to C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\README.md
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: README.md
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\vite.config.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/vite.config.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\package.json
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/package.json
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\index.css
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/index.css
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\pages\ListView.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/pages/ListView.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\context\AuthContext.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/context/AuthContext.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\utils\api.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/utils/api.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\services\auth.service.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/services/auth.service.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\hooks\useAuth.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/hooks/useAuth.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\package.json
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/package.json
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\Navbar.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/Navbar.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\App.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/App.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\tailwind.config.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/tailwind.config.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\pages\Dashboard.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/pages/Dashboard.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\pages\BoardView.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/pages/BoardView.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\server.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/server.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\main.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/main.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\pages\TaskDetail.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/pages/TaskDetail.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\pages\Settings.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/pages/Settings.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\pages\Register.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/pages/Register.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\.env.example
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/.env.example
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\pages\Login.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/pages/Login.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\context\ProjectContext.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/context/ProjectContext.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\context\TaskContext.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/context/TaskContext.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\services\task.service.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/services/task.service.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\services\project.service.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/services/project.service.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\hooks\useTasks.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/hooks/useTasks.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\Sidebar.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/Sidebar.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\hooks\useProjects.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/hooks/useProjects.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\KanbanBoard.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/KanbanBoard.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\TaskCard.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/TaskCard.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\Column.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/Column.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\ProtectedRoute.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/ProtectedRoute.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\LoadingSpinner.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/LoadingSpinner.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\ErrorDisplay.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/ErrorDisplay.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\AddTaskForm.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/AddTaskForm.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\src\components\PriorityBadge.jsx
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/src/components/PriorityBadge.jsx
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\models\Project.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/models/Project.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\controllers\auth.controller.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/controllers/auth.controller.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\routes\auth.routes.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/routes/auth.routes.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\middleware\auth.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/middleware/auth.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\config\db.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/config/db.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\services\task.service.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/services/task.service.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\utils\jwt.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/utils/jwt.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\models\User.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/models/User.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\frontend\index.html
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: frontend/index.html
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\middleware\validation.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/middleware/validation.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\middleware\errorHandler.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/middleware/errorHandler.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\services\auth.service.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/services/auth.service.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\controllers\project.controller.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/controllers/project.controller.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\models\Task.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/models/Task.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\models\Label.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/models/Label.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\services\project.service.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/services/project.service.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\services\label.service.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/services/label.service.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\routes\task.routes.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/routes/task.routes.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\controllers\label.controller.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/controllers/label.controller.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\routes\project.routes.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/routes/project.routes.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\controllers\task.controller.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/controllers/task.controller.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\utils\CustomError.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/utils/CustomError.js
+[2026-06-30 20:51:23] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf\backend\src\routes\label.routes.js
+[2026-06-30 20:51:23] DEBUG: [ProjectWriterService] Written: backend/src/routes/label.routes.js
+[2026-06-30 20:51:23] INFO: [ProjectWriterService] 60 files written successfully for project a5b95516-a53a-4ac5-b580-df61beba9acf
+[2026-06-30 20:51:23] INFO: [GenerationService] ✓ Stage 11 complete. 60 files written → C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\a5b95516-a53a-4ac5-b580-df61beba9acf
+[2026-06-30 20:51:23] INFO: [GenerationService] ── Stage 12: ProjectService — persisting project metadata to MongoDB
+[2026-06-30 20:51:23] INFO: [ProjectService] Project created: a5b95516-a53a-4ac5-b580-df61beba9acf
+[2026-06-30 20:51:23] INFO: [GenerationService] ✓ Stage 12 complete. Project saved: a5b95516-a53a-4ac5-b580-df61beba9acf
+[2026-06-30 20:51:23] INFO: [GenerationService] ════════════════════════════════
+[2026-06-30 20:51:23] INFO: [GenerationService] Pipeline COMPLETE in 190059ms. Files: 60
+[2026-06-30 20:51:23] INFO: [GenerationService] ════════════════════════════════
+[2026-06-30 20:51:25] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-06-30 20:51:26] INFO: [Bootstrap] Starting PromptAI server...
+[2026-06-30 20:51:29] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-06-30 20:51:29] INFO: [DB] Database: promptai
+[2026-06-30 20:51:29] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-06-30 20:51:29] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-06-30 20:51:29] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-06-30 20:51:29] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-06-30 21:17:12] INFO: [DB] MongoDB reconnected successfully.
+[2026-06-30 21:17:12] INFO: [DB] MongoDB reconnected successfully.
+[2026-06-30 21:17:23] WARN: [DB] MongoDB disconnected. Attempting to reconnect...
+[2026-06-30 21:17:24] INFO: [DB] MongoDB reconnected successfully.
+[2026-06-30 22:25:31] INFO: [DB] MongoDB reconnected successfully.
+[2026-06-30 22:25:31] INFO: [DB] MongoDB reconnected successfully.
+[2026-07-01 06:31:30] WARN: [DB] MongoDB disconnected. Attempting to reconnect...
+[2026-07-01 06:31:30] INFO: [DB] MongoDB reconnected successfully.
+[2026-07-01 06:32:40] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 06:32:40] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 06:32:41] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 06:32:41] INFO: [DB] Database: promptai
+[2026-07-01 06:32:41] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 06:32:41] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 06:32:41] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 06:32:41] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 06:33:11] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 06:33:12] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 06:33:15] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 06:33:15] INFO: [DB] Database: promptai
+[2026-07-01 06:33:15] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 06:33:15] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 06:33:15] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 06:33:15] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 06:34:01] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 06:34:02] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 06:34:04] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 06:34:04] INFO: [DB] Database: promptai
+[2026-07-01 06:34:04] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 06:34:04] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 06:34:04] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 06:34:04] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 06:34:46] DEBUG: [HistoryService] Fetched 1 projects (page 1)
+[2026-07-01 06:34:46] DEBUG: GET /api/v1/history 200 723.972 ms — 1300 bytes
+[2026-07-01 06:41:05] WARN: [DB] MongoDB disconnected. Attempting to reconnect...
+[2026-07-01 06:41:05] INFO: [DB] MongoDB reconnected successfully.
+[2026-07-01 07:48:14] WARN: [DB] MongoDB disconnected. Attempting to reconnect...
+[2026-07-01 07:48:25] INFO: [DB] MongoDB reconnected successfully.
+[2026-07-01 14:04:51] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:12:14] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:12:14] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:12:15] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:12:15] INFO: [DB] Database: promptai
+[2026-07-01 16:12:15] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:12:15] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:12:15] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:12:15] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:12:37] DEBUG: [HistoryService] Fetched 1 projects (page 1)
+[2026-07-01 16:12:37] DEBUG: GET /api/v1/history?page=1&limit=3&search= 200 910.215 ms — 1300 bytes
+[2026-07-01 16:12:37] DEBUG: [HistoryService] Fetched 1 projects (page 1)
+[2026-07-01 16:12:37] DEBUG: GET /api/v1/history?page=1&limit=3&search= 304 114.531 ms — - bytes
+[2026-07-01 16:13:15] INFO: [GenerationController] New generation request. Prompt: "Build a modern restaurant website with an interactive menu, reservation system, ..."
+[2026-07-01 16:13:15] INFO: [GenerationService] ════════════════════════════════
+[2026-07-01 16:13:15] INFO: [GenerationService] Pipeline START: generateProject
+[2026-07-01 16:13:15] INFO: [GenerationService] ════════════════════════════════
+[2026-07-01 16:13:15] INFO: [GenerationService] ── Stage 1-6: PlannerService — analyzing intent and architecture
+[2026-07-01 16:13:15] INFO: [PlannerService] Stage 1: Analyzing intent...
+[2026-07-01 16:13:15] INFO: [PlannerService] Stage 2: Detected app type: "restaurant". Extracting requirements...
+[2026-07-01 16:13:15] INFO: [PlannerService] Stage 3: Planning technology stack...
+[2026-07-01 16:13:15] INFO: [PlannerService] Stage 4: Planning dependencies...
+[2026-07-01 16:13:15] INFO: [PlannerService] Stage 5: Planning architecture...
+[2026-07-01 16:13:15] INFO: [PlannerService] Stage 6: Planning folder structure...
+[2026-07-01 16:13:15] INFO: [PlannerService] Specification complete. App: "Restaurant App", Pages: 7, APIs: 5
+[2026-07-01 16:13:15] INFO: [GenerationService] ✓ Stage 1-6 complete. appType: restaurant, pages: 7
+[2026-07-01 16:13:15] INFO: [GenerationService] ── Stage 7: PromptBuilderService — constructing enriched prompt
+[2026-07-01 16:13:15] INFO: [PromptBuilderService] Building generation prompt...
+[2026-07-01 16:13:15] INFO: [PromptBuilderService] generation prompt built. Chars: 8306, Est. tokens: ~2077
+[2026-07-01 16:13:15] INFO: [GenerationService] ✓ Stage 7 complete. prompt length: 8306 chars
+[2026-07-01 16:13:15] INFO: [GenerationService] ── Stage 8: AIProvider — calling Gemini with enriched prompt
+[2026-07-01 16:13:15] INFO: [GeminiProvider] Generation attempt 1/3...
+[2026-07-01 16:14:59] DEBUG: POST /api/v1/generate 200 6.727 ms — - bytes
+[2026-07-01 16:16:03] INFO: [GeminiProvider] Response received in 167660ms (125773 chars)
+[2026-07-01 16:16:03] INFO: [GenerationService] ✓ Stage 8 complete. Gemini responded in 167660ms
+[2026-07-01 16:16:03] INFO: [GenerationService] ── Stage 9-10: ResponseParserService — validating and normalizing response
+[2026-07-01 16:16:03] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-07-01 16:16:03] ERROR: [GenerationService] ════════════════════════════════
+[2026-07-01 16:16:03] ERROR: [GenerationService] Pipeline FAILED after 167690ms
+[2026-07-01 16:16:03] ERROR: [GenerationService] Error: File "frontend/public/hero-bg.jpg" has empty or missing content. Every file must have complete, working content.
+[2026-07-01 16:16:03] ERROR: [GenerationService] ════════════════════════════════
+[2026-07-01 16:16:03] ERROR: [GenerationController] Generation failed: File "frontend/public/hero-bg.jpg" has empty or missing content. Every file must have complete, working content.
+[2026-07-01 16:22:07] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:22:08] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:22:21] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 16:22:21] INFO: [DB] Database: promptai
+[2026-07-01 16:22:21] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:22:21] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:22:21] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:22:21] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:22:23] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:22:23] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:22:28] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 16:22:28] INFO: [DB] Database: promptai
+[2026-07-01 16:22:28] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:22:28] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:22:28] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:22:28] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:22:43] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:22:43] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:22:45] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:22:45] INFO: [DB] Database: promptai
+[2026-07-01 16:22:45] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:22:45] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:22:45] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:22:45] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:22:50] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:22:51] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:22:53] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 16:22:53] INFO: [DB] Database: promptai
+[2026-07-01 16:22:53] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:22:53] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:22:53] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:22:53] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:23:00] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:23:00] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:23:05] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:23:05] INFO: [DB] Database: promptai
+[2026-07-01 16:23:05] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:23:05] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:23:05] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:23:05] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:23:16] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:23:16] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:23:18] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:23:18] INFO: [DB] Database: promptai
+[2026-07-01 16:23:18] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:23:18] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:23:18] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:23:18] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:23:22] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:23:22] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:23:23] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:23:23] INFO: [DB] Database: promptai
+[2026-07-01 16:23:23] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:23:23] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:23:23] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:23:23] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:23:34] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:23:35] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:23:36] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 16:23:36] INFO: [DB] Database: promptai
+[2026-07-01 16:23:36] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:23:36] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:23:36] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:23:36] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:23:45] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:23:46] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:23:47] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:23:47] INFO: [DB] Database: promptai
+[2026-07-01 16:23:47] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:23:47] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:23:47] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:23:47] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:23:55] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:23:55] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:23:57] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 16:23:57] INFO: [DB] Database: promptai
+[2026-07-01 16:23:57] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:23:57] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:23:57] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:23:57] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:24:05] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:24:05] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:24:06] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 16:24:06] INFO: [DB] Database: promptai
+[2026-07-01 16:24:06] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:24:06] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:24:06] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:24:06] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:24:12] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:24:13] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:24:14] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:24:14] INFO: [DB] Database: promptai
+[2026-07-01 16:24:14] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:24:14] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:24:14] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:24:14] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:24:21] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:24:21] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:24:23] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 16:24:23] INFO: [DB] Database: promptai
+[2026-07-01 16:24:23] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:24:23] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:24:23] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:24:23] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:24:32] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:24:32] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:24:39] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 16:24:39] INFO: [DB] Database: promptai
+[2026-07-01 16:24:39] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:24:39] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:24:39] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:24:39] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:24:42] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:24:43] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:24:45] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:24:45] INFO: [DB] Database: promptai
+[2026-07-01 16:24:45] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:24:45] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:24:45] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:24:45] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:24:59] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:24:59] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:25:04] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:25:04] INFO: [DB] Database: promptai
+[2026-07-01 16:25:04] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:25:04] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:25:04] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:25:04] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:25:11] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:25:12] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:25:13] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:25:13] INFO: [DB] Database: promptai
+[2026-07-01 16:25:13] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:25:13] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:25:13] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:25:13] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:27:43] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:27:43] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:27:46] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 16:27:46] INFO: [DB] Database: promptai
+[2026-07-01 16:27:46] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:27:46] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:27:46] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:27:46] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:27:53] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:27:53] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:27:55] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 16:27:55] INFO: [DB] Database: promptai
+[2026-07-01 16:27:55] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:27:55] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:27:55] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:27:55] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:28:14] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:28:33] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:28:33] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:28:35] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 16:28:35] INFO: [DB] Database: promptai
+[2026-07-01 16:28:35] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:28:35] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:28:35] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:28:35] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:36:31] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:36:31] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:36:33] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 16:36:33] INFO: [DB] Database: promptai
+[2026-07-01 16:36:33] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:36:33] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:36:33] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:36:33] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:37:05] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:37:05] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:37:07] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 16:37:07] INFO: [DB] Database: promptai
+[2026-07-01 16:37:07] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:37:07] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:37:07] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:37:07] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:37:18] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:37:18] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:37:19] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:37:19] INFO: [DB] Database: promptai
+[2026-07-01 16:37:19] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:37:19] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:37:19] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:37:19] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:37:23] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:37:23] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:37:24] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:37:24] INFO: [DB] Database: promptai
+[2026-07-01 16:37:24] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:37:24] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:37:24] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:37:24] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:37:44] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:37:44] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:37:47] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:37:47] INFO: [DB] Database: promptai
+[2026-07-01 16:37:47] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:37:47] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:37:47] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:37:47] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 16:40:47] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 16:40:47] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 16:40:49] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 16:40:49] INFO: [DB] Database: promptai
+[2026-07-01 16:40:49] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 16:40:49] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 16:40:49] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 16:40:49] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:07:07] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:07:07] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:07:10] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 17:07:10] INFO: [DB] Database: promptai
+[2026-07-01 17:07:10] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:07:10] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:07:10] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:07:10] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:07:25] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:07:25] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:07:27] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 17:07:27] INFO: [DB] Database: promptai
+[2026-07-01 17:07:27] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:07:27] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:07:27] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:07:27] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:09:21] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:09:21] DEBUG: POST /api/v1/auth/refresh 401 7.356 ms — 73 bytes
+[2026-07-01 17:09:21] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:09:21] DEBUG: POST /api/v1/auth/refresh 401 2.604 ms — 73 bytes
+[2026-07-01 17:16:43] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:16:43] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:16:46] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 17:16:46] INFO: [DB] Database: promptai
+[2026-07-01 17:16:46] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:16:46] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:16:46] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:16:46] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:16:52] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:16:52] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:16:54] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 17:16:54] INFO: [DB] Database: promptai
+[2026-07-01 17:16:54] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:16:54] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:16:54] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:16:54] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:17:06] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:17:06] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:17:08] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 17:17:08] INFO: [DB] Database: promptai
+[2026-07-01 17:17:08] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:17:08] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:17:08] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:17:08] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:17:24] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:17:24] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:17:25] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 17:17:25] INFO: [DB] Database: promptai
+[2026-07-01 17:17:25] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:17:25] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:17:25] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:17:25] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:17:45] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:17:45] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:17:47] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 17:17:47] INFO: [DB] Database: promptai
+[2026-07-01 17:17:47] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:17:47] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:17:47] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:17:47] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:18:18] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:18:18] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:18:20] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-01 17:18:20] INFO: [DB] Database: promptai
+[2026-07-01 17:18:20] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:18:20] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:18:20] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:18:20] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:18:36] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 17:18:36] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 17:18:39] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-02.6vlse7k.mongodb.net
+[2026-07-01 17:18:39] INFO: [DB] Database: promptai
+[2026-07-01 17:18:39] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 17:18:39] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 17:18:39] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 17:18:39] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-01 17:19:53] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:19:53] DEBUG: POST /api/v1/auth/refresh 401 8.372 ms — 73 bytes
+[2026-07-01 17:19:53] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:19:53] DEBUG: POST /api/v1/auth/refresh 401 1.373 ms — 73 bytes
+[2026-07-01 17:20:01] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:01] DEBUG: POST /api/v1/auth/refresh 401 2.398 ms — 73 bytes
+[2026-07-01 17:20:01] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:01] DEBUG: POST /api/v1/auth/refresh 401 1.246 ms — 73 bytes
+[2026-07-01 17:20:09] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:09] DEBUG: POST /api/v1/auth/refresh 401 1.699 ms — 73 bytes
+[2026-07-01 17:20:09] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:09] DEBUG: POST /api/v1/auth/refresh 401 0.932 ms — 73 bytes
+[2026-07-01 17:20:30] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:30] DEBUG: POST /api/v1/auth/refresh 401 1.525 ms — 73 bytes
+[2026-07-01 17:20:30] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:20:30] DEBUG: POST /api/v1/auth/refresh 401 1.129 ms — 73 bytes
+[2026-07-01 17:21:15] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:21:15] DEBUG: POST /api/v1/auth/refresh 401 1.677 ms — 73 bytes
+[2026-07-01 17:21:15] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:21:15] DEBUG: POST /api/v1/auth/refresh 401 1.950 ms — 73 bytes
+[2026-07-01 17:23:41] INFO: [AuthController] Authenticating Google Sign-In request
+[2026-07-01 17:23:42] INFO: [AuthController] New user registered: dev@promptai.dev
+[2026-07-01 17:23:42] DEBUG: POST /api/v1/auth/google 200 683.116 ms — 639 bytes
+[2026-07-01 17:23:42] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:23:42] DEBUG: GET /api/v1/history?page=1&limit=4&search= 401 2.866 ms — 76 bytes
+[2026-07-01 17:23:42] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:23:42] DEBUG: GET /api/v1/history?page=1&limit=4&search= 401 1.577 ms — 76 bytes
+[2026-07-01 17:23:42] DEBUG: [AuthController] Refreshing access token session
+[2026-07-01 17:23:43] DEBUG: POST /api/v1/auth/refresh 200 341.971 ms — 649 bytes
+[2026-07-01 17:23:43] DEBUG: [HistoryService] Fetched 0 projects for user 91d19276-7874-4d62-8f12-359d567b1024 (page 1)
+[2026-07-01 17:23:43] DEBUG: GET /api/v1/history?page=1&limit=4&search= 200 252.236 ms — 93 bytes
+[2026-07-01 17:23:43] DEBUG: [HistoryService] Fetched 0 projects for user 91d19276-7874-4d62-8f12-359d567b1024 (page 1)
+[2026-07-01 17:23:43] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 208.870 ms — - bytes
+[2026-07-01 17:25:51] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:25:51] DEBUG: POST /api/v1/generate 401 5.856 ms — 76 bytes
+[2026-07-01 17:25:53] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:25:53] DEBUG: POST /api/v1/generate 401 3.100 ms — 76 bytes
+[2026-07-01 17:26:12] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:26:12] DEBUG: POST /api/v1/generate 401 2.649 ms — 76 bytes
+[2026-07-01 17:27:31] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:27:31] DEBUG: POST /api/v1/generate 401 1.603 ms — 76 bytes
+[2026-07-01 17:28:29] DEBUG: POST /api/v1/auth/logout 200 221.883 ms — 65 bytes
+[2026-07-01 17:45:38] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:45:38] DEBUG: POST /api/v1/auth/refresh 401 2.358 ms — 73 bytes
+[2026-07-01 17:45:38] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:45:38] DEBUG: POST /api/v1/auth/refresh 401 2.432 ms — 73 bytes
+[2026-07-01 17:45:50] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:45:50] DEBUG: POST /api/v1/auth/refresh 401 1.390 ms — 73 bytes
+[2026-07-01 17:45:50] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:45:50] DEBUG: POST /api/v1/auth/refresh 401 1.036 ms — 73 bytes
+[2026-07-01 17:48:46] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:48:46] DEBUG: POST /api/v1/auth/refresh 401 1.406 ms — 73 bytes
+[2026-07-01 17:48:46] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:48:46] DEBUG: POST /api/v1/auth/refresh 401 1.062 ms — 73 bytes
+[2026-07-01 17:48:54] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:48:54] DEBUG: POST /api/v1/auth/refresh 401 2.172 ms — 73 bytes
+[2026-07-01 17:48:54] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-01 17:48:54] DEBUG: POST /api/v1/auth/refresh 401 1.242 ms — 73 bytes
+[2026-07-01 17:49:13] INFO: [AuthController] Authenticating Google Sign-In request
+[2026-07-01 17:49:14] INFO: [AuthController] New user registered: himanshi11220909@gmail.com
+[2026-07-01 17:49:15] DEBUG: POST /api/v1/auth/google 200 2452.932 ms — 690 bytes
+[2026-07-01 17:49:15] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:49:15] DEBUG: GET /api/v1/history?page=1&limit=4&search= 401 1.579 ms — 76 bytes
+[2026-07-01 17:49:15] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:49:15] DEBUG: GET /api/v1/history?page=1&limit=4&search= 401 1.868 ms — 76 bytes
+[2026-07-01 17:49:15] DEBUG: [AuthController] Refreshing access token session
+[2026-07-01 17:49:16] DEBUG: POST /api/v1/auth/refresh 200 651.178 ms — 700 bytes
+[2026-07-01 17:49:17] DEBUG: [HistoryService] Fetched 0 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-01 17:49:17] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 743.532 ms — - bytes
+[2026-07-01 17:49:17] DEBUG: [HistoryService] Fetched 0 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-01 17:49:17] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 725.708 ms — - bytes
+[2026-07-01 17:49:20] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:49:20] DEBUG: POST /api/v1/generate 401 3.204 ms — 76 bytes
+[2026-07-01 17:49:53] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:49:53] DEBUG: POST /api/v1/generate 401 1.825 ms — 76 bytes
+[2026-07-01 17:50:58] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:50:58] DEBUG: POST /api/v1/generate 401 1.894 ms — 76 bytes
+[2026-07-01 17:51:05] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 17:51:05] DEBUG: POST /api/v1/generate 401 2.893 ms — 76 bytes
+[2026-07-01 17:58:02] DEBUG: [AuthController] Refreshing access token session
+[2026-07-01 17:58:02] DEBUG: [AuthController] Refreshing access token session
+[2026-07-01 17:58:02] DEBUG: POST /api/v1/auth/refresh 200 364.495 ms — 700 bytes
+[2026-07-01 17:58:02] DEBUG: POST /api/v1/auth/refresh 200 353.008 ms — 700 bytes
+[2026-07-01 17:58:03] DEBUG: [HistoryService] Fetched 0 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-01 17:58:03] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 221.414 ms — - bytes
+[2026-07-01 17:58:03] DEBUG: [HistoryService] Fetched 0 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-01 17:58:03] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 254.300 ms — - bytes
+[2026-07-01 18:07:11] DEBUG: [AuthController] Refreshing access token session
+[2026-07-01 18:07:11] DEBUG: [AuthController] Refreshing access token session
+[2026-07-01 18:07:14] DEBUG: POST /api/v1/auth/refresh 200 2913.501 ms — 700 bytes
+[2026-07-01 18:07:14] DEBUG: POST /api/v1/auth/refresh 200 2929.774 ms — 700 bytes
+[2026-07-01 18:07:16] DEBUG: [HistoryService] Fetched 0 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-01 18:07:16] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 1881.450 ms — - bytes
+[2026-07-01 18:07:18] DEBUG: [HistoryService] Fetched 0 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-01 18:07:18] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 1858.637 ms — - bytes
+[2026-07-01 18:07:19] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 18:07:19] DEBUG: POST /api/v1/generate 401 2.890 ms — 76 bytes
+[2026-07-01 18:19:36] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-01 18:19:36] DEBUG: POST /api/v1/generate 401 4.646 ms — 76 bytes
+[2026-07-01 18:23:59] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-01 18:24:00] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-01 18:24:01] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-01 18:24:01] INFO: [DB] Database: promptai
+[2026-07-01 18:24:01] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-01 18:24:01] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-01 18:24:01] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-01 18:24:01] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-03 16:48:13] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-03 16:48:13] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-03 16:48:18] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-01.6vlse7k.mongodb.net
+[2026-07-03 16:48:18] INFO: [DB] Database: promptai
+[2026-07-03 16:48:18] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-03 16:48:18] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-03 16:48:18] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-03 16:48:18] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-03 16:48:36] DEBUG: [AuthController] Refreshing access token session
+[2026-07-03 16:48:36] DEBUG: [AuthController] Refreshing access token session
+[2026-07-03 16:48:48] DEBUG: POST /api/v1/auth/refresh 200 11626.885 ms — 700 bytes
+[2026-07-03 16:48:48] DEBUG: POST /api/v1/auth/refresh 200 11660.333 ms — 700 bytes
+[2026-07-03 16:48:52] DEBUG: [HistoryService] Fetched 0 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-03 16:48:52] DEBUG: GET /api/v1/history?page=1&limit=4&search= 200 3484.546 ms — 93 bytes
+[2026-07-03 16:48:53] DEBUG: [HistoryService] Fetched 0 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-03 16:48:53] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 986.069 ms — - bytes
+[2026-07-03 16:48:58] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-03 16:48:58] DEBUG: POST /api/v1/generate 401 5.385 ms — 76 bytes
+[2026-07-03 16:51:05] ERROR: Error: Access token is missing or invalid.
+    at requireAuth (C:\Users\Himanshi singh\Downloads\PromptAI\server\middleware\auth.js:15:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:328:13)
+[2026-07-03 16:51:05] DEBUG: POST /api/v1/generate 401 2.697 ms — 76 bytes
+[2026-07-03 16:53:28] INFO: [GenerationController] New generation request. Prompt: "Build a modern restaurant website with an interactive menu, reservation system, ..."
+[2026-07-03 16:53:28] INFO: [GenerationService] ════════════════════════════════
+[2026-07-03 16:53:28] INFO: [GenerationService] Pipeline START: generateProject
+[2026-07-03 16:53:28] INFO: [GenerationService] ════════════════════════════════
+[2026-07-03 16:53:28] INFO: [GenerationService] ── Stage 1-6: PlannerService — analyzing intent and architecture
+[2026-07-03 16:53:28] INFO: [PlannerService] Stage 1: Analyzing intent...
+[2026-07-03 16:53:28] INFO: [PlannerService] Stage 2: Detected app type: "restaurant". Extracting requirements...
+[2026-07-03 16:53:28] INFO: [PlannerService] Stage 3: Planning technology stack...
+[2026-07-03 16:53:28] INFO: [PlannerService] Stage 4: Planning dependencies...
+[2026-07-03 16:53:28] INFO: [PlannerService] Stage 5: Planning architecture...
+[2026-07-03 16:53:28] INFO: [PlannerService] Stage 6: Planning folder structure...
+[2026-07-03 16:53:28] INFO: [PlannerService] Specification complete. App: "Restaurant App", Pages: 7, APIs: 5
+[2026-07-03 16:53:28] INFO: [GenerationService] ✓ Stage 1-6 complete. appType: restaurant, pages: 7
+[2026-07-03 16:53:28] INFO: [GenerationService] ── Stage 7: PromptBuilderService — constructing enriched prompt
+[2026-07-03 16:53:28] INFO: [PromptBuilderService] Building generation prompt...
+[2026-07-03 16:53:28] INFO: [PromptBuilderService] generation prompt built. Chars: 8306, Est. tokens: ~2077
+[2026-07-03 16:53:28] INFO: [GenerationService] ✓ Stage 7 complete. prompt length: 8306 chars
+[2026-07-03 16:53:28] INFO: [GenerationService] ── Stage 8: AIProvider — calling Gemini with enriched prompt
+[2026-07-03 16:53:28] INFO: [GeminiProvider] Generation attempt 1/3...
+[2026-07-03 16:56:02] INFO: [GeminiProvider] Response received in 154056ms (111560 chars)
+[2026-07-03 16:56:02] INFO: [GenerationService] ✓ Stage 8 complete. Gemini responded in 154056ms
+[2026-07-03 16:56:02] INFO: [GenerationService] ── Stage 9-10: ResponseParserService — validating and normalizing response
+[2026-07-03 16:56:02] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-07-03 16:56:02] INFO: [ResponseParserService] Stage 9 passed. 50 files validated.
+[2026-07-03 16:56:02] INFO: [ResponseParserService] Stage 10: Starting review pass...
+[2026-07-03 16:56:02] INFO: [ResponseParserService] Stage 10 complete. Files: 50, Warnings: 0
+[2026-07-03 16:56:02] INFO: [GenerationService] ✓ Stage 9-10 complete. 50 files validated
+[2026-07-03 16:56:02] INFO: [GenerationService] ── Stage 11: ProjectWriterService — writing files to disk
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Writing project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 to C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\README.md
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: README.md
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\index.html
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/index.html
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\main.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/main.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\pages\Menu.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/pages/Menu.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\services\menuService.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/services/menuService.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\server.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/server.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\components\RootLayout.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/components/RootLayout.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\context\CartContext.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/context/CartContext.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\hooks\useCart.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/hooks/useCart.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\utils\apiClient.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/utils/apiClient.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\package.json
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/package.json
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\App.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/App.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\pages\Home.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/pages/Home.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\index.css
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/index.css
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\pages\MenuItemDetail.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\pages\Checkout.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/pages/Checkout.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\pages\About.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/pages/About.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\vite.config.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/vite.config.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\pages\Cart.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/pages/Cart.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\components\Navbar.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/components/Navbar.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\pages\OrderTracking.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/pages/OrderTracking.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\components\HeroSection.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/components/HeroSection.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\components\MenuCard.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/components/MenuCard.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\components\CartDrawer.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/components/CartDrawer.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\components\CategoryFilter.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/components/CategoryFilter.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\services\orderService.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/services/orderService.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\components\ReviewCard.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/components/ReviewCard.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\components\OrderSummary.jsx
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/components/OrderSummary.jsx
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\src\services\reviewService.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/src/services/reviewService.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\package.json
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/package.json
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\.env.example
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/.env.example
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\models\User.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/models/User.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\config\db.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/config/db.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\middleware\errorHandler.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/middleware/errorHandler.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\controllers\reviewController.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/controllers/reviewController.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\routes\orderRoutes.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/routes/orderRoutes.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\frontend\tailwind.config.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: frontend/tailwind.config.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\utils\multerConfig.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/utils/multerConfig.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\services\reviewService.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/services/reviewService.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\models\MenuItem.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/models/MenuItem.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\models\Order.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/models/Order.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\models\Category.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/models/Category.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\models\Review.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/models/Review.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\middleware\validationMiddleware.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/middleware/validationMiddleware.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\controllers\orderController.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/controllers/orderController.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\routes\reviewRoutes.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/routes/reviewRoutes.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\routes\menuRoutes.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/routes/menuRoutes.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\controllers\menuController.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/controllers/menuController.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\services\menuService.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/services/menuService.js
+[2026-07-03 16:56:02] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111\backend\src\services\orderService.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Added: backend/src/services/orderService.js
+[2026-07-03 16:56:02] INFO: [ProjectWriterService] Diff processing complete. Added: 50, Modified: 0, Deleted: 0, Unchanged: 0
+[2026-07-03 16:56:02] INFO: [GenerationService] ✓ Stage 11 complete. 50 files written → C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 16:56:02] INFO: [GitService] Initializing new Git repository at C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 16:56:05] INFO: [GitService] Initial commit created: f37fb2912c1f45ab071f2eaf57aab21aa69308d9
+[2026-07-03 16:56:05] INFO: [GenerationService] ── Stage 12: ProjectService — persisting project metadata to MongoDB
+[2026-07-03 16:56:06] INFO: [ProjectService] Project created: 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 16:56:06] INFO: [GenerationService] ✓ Stage 12 complete. Project saved: 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 16:56:06] INFO: [GenerationService] ════════════════════════════════
+[2026-07-03 16:56:06] INFO: [GenerationService] Pipeline COMPLETE in 156760ms. Files: 50
+[2026-07-03 16:56:06] INFO: [GenerationService] ════════════════════════════════
+[2026-07-03 16:56:06] DEBUG: POST /api/v1/generate 200 710.374 ms — - bytes
+[2026-07-03 16:56:11] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 200 379.021 ms — 59 bytes
+[2026-07-03 16:56:11] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:56:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 433.145 ms — 88 bytes
+[2026-07-03 16:56:11] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:56:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 245.160 ms — 88 bytes
+[2026-07-03 16:56:11] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 318.038 ms — - bytes
+[2026-07-03 16:56:12] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 200 1682.236 ms — 282 bytes
+[2026-07-03 16:56:12] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:56:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 415.119 ms — 88 bytes
+[2026-07-03 16:56:13] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 782.407 ms — - bytes
+[2026-07-03 16:59:02] DEBUG: [AuthController] Refreshing access token session
+[2026-07-03 16:59:02] DEBUG: [AuthController] Refreshing access token session
+[2026-07-03 16:59:06] DEBUG: POST /api/v1/auth/refresh 200 4124.066 ms — 700 bytes
+[2026-07-03 16:59:06] DEBUG: POST /api/v1/auth/refresh 200 4135.619 ms — 700 bytes
+[2026-07-03 16:59:08] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 200 1291.363 ms — - bytes
+[2026-07-03 16:59:09] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:09] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 1536.167 ms — 88 bytes
+[2026-07-03 16:59:09] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 325.911 ms — - bytes
+[2026-07-03 16:59:09] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 2205.272 ms — - bytes
+[2026-07-03 16:59:09] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:09] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 710.245 ms — 88 bytes
+[2026-07-03 16:59:10] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 387.812 ms — 88 bytes
+[2026-07-03 16:59:10] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 620.682 ms — - bytes
+[2026-07-03 16:59:10] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 2877.785 ms — - bytes
+[2026-07-03 16:59:10] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 319.656 ms — 88 bytes
+[2026-07-03 16:59:10] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 254.708 ms — 88 bytes
+[2026-07-03 16:59:11] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 546.655 ms — - bytes
+[2026-07-03 16:59:11] ERROR: TypeError: this._buildTree is not a function
+    at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
+    at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 16:59:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 240.451 ms — 88 bytes
+[2026-07-03 16:59:11] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 644.426 ms — - bytes
+[2026-07-03 16:59:11] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 313.861 ms — - bytes

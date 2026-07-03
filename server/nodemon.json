@@ -1,0 +1,6 @@
+{
+  "watch": ["server.js", "routes", "controllers", "services", "middleware", "config", "utils", "validators"],
+  "ignore": ["generated-projects/**", "temp/**", "logs/**", "scratch/**", "node_modules/**"],
+  "ext": "js,json",
+  "delay": 500
+}
