@@ -56,6 +56,7 @@ class WorkspaceService {
   /**
    * Builds a nested file tree from a flat list of file entries.
    * @param {Array<{path: string, relativePath: string}>} files
+   */
   _buildTree(files) {
     const root = [];
 

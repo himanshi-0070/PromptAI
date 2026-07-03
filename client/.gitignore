@@ -6,7 +6,17 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+# Environment files
 .env
+**/.env
+server/.env
+
+# Logs
+server/logs/
+*.log
+
+# Generated projects
+server/generated-projects/
 
 node_modules
 dist

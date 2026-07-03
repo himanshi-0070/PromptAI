@@ -1342,3 +1342,460 @@
 [2026-07-03 16:59:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 500 240.451 ms — 88 bytes
 [2026-07-03 16:59:11] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 644.426 ms — - bytes
 [2026-07-03 16:59:11] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 313.861 ms — - bytes
+[2026-07-03 17:17:49] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-03 17:17:49] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-03 17:17:53] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-03 17:17:53] INFO: [DB] Database: promptai
+[2026-07-03 17:17:53] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-03 17:17:53] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-03 17:17:53] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-03 17:17:53] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-03 17:19:46] DEBUG: [AuthController] Refreshing access token session
+[2026-07-03 17:19:46] DEBUG: [AuthController] Refreshing access token session
+[2026-07-03 17:19:48] DEBUG: POST /api/v1/auth/refresh 200 1489.570 ms — 700 bytes
+[2026-07-03 17:19:51] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 17:19:51] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 1839.240 ms — - bytes
+[2026-07-03 17:19:52] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 2606.608 ms — - bytes
+[2026-07-03 17:19:52] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 17:19:52] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 954.060 ms — - bytes
+[2026-07-03 17:19:53] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 3659.189 ms — - bytes
+[2026-07-03 17:19:53] ERROR: Error: Session hijacked or token reused. Please log in again.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:180:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-07-03 17:19:53] DEBUG: POST /api/v1/auth/refresh 401 6692.105 ms — 95 bytes
+[2026-07-03 17:19:53] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 3816.992 ms — - bytes
+[2026-07-03 17:19:53] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 248.484 ms — - bytes
+[2026-07-03 17:19:53] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 17:19:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 602.964 ms — - bytes
+[2026-07-03 17:19:54] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 926.368 ms — - bytes
+[2026-07-03 17:19:54] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 17:19:54] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 837.190 ms — - bytes
+[2026-07-03 17:19:54] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 2649.072 ms — - bytes
+[2026-07-03 17:19:55] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 920.266 ms — - bytes
+[2026-07-03 17:19:55] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 17:19:55] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 454.515 ms — - bytes
+[2026-07-03 17:19:56] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-03 17:19:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 886.832 ms — - bytes
+[2026-07-03 17:19:56] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-03 17:19:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 200 1125.561 ms — - bytes
+[2026-07-03 17:19:56] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-03 17:19:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 200 1165.009 ms — - bytes
+[2026-07-03 17:19:56] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-03 17:19:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 200 1202.065 ms — - bytes
+[2026-07-03 17:19:56] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 1407.945 ms — - bytes
+[2026-07-03 17:19:56] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-03 17:19:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 200 661.265 ms — - bytes
+[2026-07-03 17:19:57] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-03 17:19:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 200 649.222 ms — - bytes
+[2026-07-03 17:19:57] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-03 17:19:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 200 704.144 ms — - bytes
+[2026-07-03 17:19:57] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-03 17:19:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 200 608.365 ms — 1003 bytes
+[2026-07-03 17:19:57] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-03 17:19:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 200 610.145 ms — - bytes
+[2026-07-03 17:19:57] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-03 17:19:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 200 434.768 ms — 415 bytes
+[2026-07-03 17:19:57] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-03 17:19:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 200 642.115 ms — - bytes
+[2026-07-03 17:19:57] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-03 17:19:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 200 810.400 ms — - bytes
+[2026-07-03 17:19:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-03 17:19:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 200 749.389 ms — - bytes
+[2026-07-03 17:19:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-03 17:19:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-03 17:19:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 200 800.991 ms — - bytes
+[2026-07-03 17:19:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 200 840.700 ms — - bytes
+[2026-07-03 17:19:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-03 17:19:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 200 663.955 ms — - bytes
+[2026-07-03 17:19:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-03 17:19:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 200 456.040 ms — - bytes
+[2026-07-03 17:19:58] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-03 17:19:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 200 528.553 ms — 695 bytes
+[2026-07-03 17:19:58] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-03 17:19:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 200 788.886 ms — 927 bytes
+[2026-07-03 17:19:59] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-03 17:19:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 200 1094.016 ms — 420 bytes
+[2026-07-03 17:19:59] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-03 17:19:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 200 3967.963 ms — - bytes
+[2026-07-03 17:19:59] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-03 17:19:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 200 929.286 ms — 943 bytes
+[2026-07-03 17:19:59] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-03 17:19:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 200 1378.428 ms — - bytes
+[2026-07-03 17:19:59] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-03 17:19:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 200 728.135 ms — 555 bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 200 1171.438 ms — 467 bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 200 786.697 ms — - bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 200 1448.740 ms — 814 bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 200 847.237 ms — - bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 304 437.972 ms — - bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 200 530.701 ms — 474 bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 304 528.508 ms — - bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 631.347 ms — - bytes
+[2026-07-03 17:20:00] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-03 17:20:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 304 718.475 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 809.955 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 721.886 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 740.131 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 470.688 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 654.176 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 544.601 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 520.191 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 537.729 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 516.251 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 423.857 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 552.591 ms — - bytes
+[2026-07-03 17:20:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-03 17:20:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 680.693 ms — - bytes
+[2026-07-03 17:20:02] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-03 17:20:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 1017.799 ms — - bytes
+[2026-07-03 17:20:02] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-03 17:20:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 1024.256 ms — - bytes
+[2026-07-03 17:20:02] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-03 17:20:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 1066.783 ms — - bytes
+[2026-07-03 17:20:02] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-03 17:20:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 304 1086.532 ms — - bytes
+[2026-07-03 17:20:02] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-03 17:20:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 1041.188 ms — - bytes
+[2026-07-03 17:20:02] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-03 17:20:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 1031.184 ms — - bytes
+[2026-07-03 17:20:03] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-03 17:20:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 560.716 ms — - bytes
+[2026-07-03 17:20:03] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-03 17:20:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 564.127 ms — - bytes
+[2026-07-03 17:20:03] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-03 17:20:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 495.836 ms — - bytes
+[2026-07-03 17:20:03] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-03 17:20:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 625.245 ms — - bytes
+[2026-07-03 17:20:03] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-03 17:20:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 512.555 ms — - bytes
+[2026-07-03 17:20:03] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-03 17:20:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 628.223 ms — - bytes
+[2026-07-03 17:20:33] DEBUG: [HistoryService] Fetched 1 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-03 17:20:33] DEBUG: GET /api/v1/history?page=1&limit=4&search= 200 299.918 ms — - bytes
+[2026-07-03 17:20:33] DEBUG: [HistoryService] Fetched 1 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-03 17:20:33] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 188.565 ms — - bytes
+[2026-07-03 17:20:58] INFO: [GenerationController] New generation request. Prompt: "Build me the to-do list app..."
+[2026-07-03 17:20:58] INFO: [GenerationService] ════════════════════════════════
+[2026-07-03 17:20:58] INFO: [GenerationService] Pipeline START: generateProject
+[2026-07-03 17:20:58] INFO: [GenerationService] ════════════════════════════════
+[2026-07-03 17:20:58] INFO: [GenerationService] ── Stage 1-6: PlannerService — analyzing intent and architecture
+[2026-07-03 17:20:58] INFO: [PlannerService] Stage 1: Analyzing intent...
+[2026-07-03 17:20:58] INFO: [PlannerService] Stage 2: Detected app type: "todo". Extracting requirements...
+[2026-07-03 17:20:58] INFO: [PlannerService] Stage 3: Planning technology stack...
+[2026-07-03 17:20:58] INFO: [PlannerService] Stage 4: Planning dependencies...
+[2026-07-03 17:20:58] INFO: [PlannerService] Stage 5: Planning architecture...
+[2026-07-03 17:20:58] INFO: [PlannerService] Stage 6: Planning folder structure...
+[2026-07-03 17:20:58] INFO: [PlannerService] Specification complete. App: "Task Manager", Pages: 7, APIs: 10
+[2026-07-03 17:20:58] INFO: [GenerationService] ✓ Stage 1-6 complete. appType: todo, pages: 7
+[2026-07-03 17:20:58] INFO: [GenerationService] ── Stage 7: PromptBuilderService — constructing enriched prompt
+[2026-07-03 17:20:58] INFO: [PromptBuilderService] Building generation prompt...
+[2026-07-03 17:20:58] INFO: [PromptBuilderService] generation prompt built. Chars: 8339, Est. tokens: ~2085
+[2026-07-03 17:20:58] INFO: [GenerationService] ✓ Stage 7 complete. prompt length: 8339 chars
+[2026-07-03 17:20:58] INFO: [GenerationService] ── Stage 8: AIProvider — calling Gemini with enriched prompt
+[2026-07-03 17:20:58] INFO: [GeminiProvider] Generation attempt 1/3...
+[2026-07-03 17:23:46] INFO: [GeminiProvider] Response received in 167971ms (131574 chars)
+[2026-07-03 17:23:46] INFO: [GenerationService] ✓ Stage 8 complete. Gemini responded in 167971ms
+[2026-07-03 17:23:46] INFO: [GenerationService] ── Stage 9-10: ResponseParserService — validating and normalizing response
+[2026-07-03 17:23:46] INFO: [ResponseParserService] Stage 9: Starting response validation...
+[2026-07-03 17:23:46] INFO: [ResponseParserService] Stage 9 passed. 59 files validated.
+[2026-07-03 17:23:46] INFO: [ResponseParserService] Stage 10: Starting review pass...
+[2026-07-03 17:23:46] INFO: [ResponseParserService] Stage 10 complete. Files: 59, Warnings: 0
+[2026-07-03 17:23:46] INFO: [GenerationService] ✓ Stage 9-10 complete. 59 files validated
+[2026-07-03 17:23:46] INFO: [GenerationService] ── Stage 11: ProjectWriterService — writing files to disk
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Writing project 99280638-cc9f-4d1d-8da0-4c047749b0a0 to C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\README.md
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: README.md
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\index.html
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/index.html
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\index.css
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/index.css
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\pages\Login.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/pages/Login.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\utils\api.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/utils/api.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\hooks\useAuth.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/hooks/useAuth.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\context\AuthContext.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/context/AuthContext.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\services\auth.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/services/auth.service.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\Sidebar.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/Sidebar.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\package.json
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/package.json
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\tailwind.config.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/tailwind.config.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\vite.config.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/vite.config.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\App.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/App.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\context\TaskContext.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/context/TaskContext.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\pages\ListView.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/pages/ListView.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\main.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/main.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\hooks\useTasks.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/hooks/useTasks.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\services\label.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/services/label.service.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\Navbar.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/Navbar.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\pages\Settings.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/pages/Settings.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\Column.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/Column.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\services\task.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/services/task.service.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\services\project.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/services/project.service.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\pages\TaskDetail.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/pages/TaskDetail.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\pages\Register.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/pages/Register.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\AddTaskForm.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/AddTaskForm.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\PriorityBadge.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/PriorityBadge.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\ProtectedRoute.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/ProtectedRoute.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\TaskCard.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/TaskCard.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\LoadingSpinner.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/LoadingSpinner.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\ErrorDisplay.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/ErrorDisplay.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\Modal.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/Modal.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\components\KanbanBoard.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/components/KanbanBoard.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\package.json
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/package.json
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\server.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/server.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\.env.example
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/.env.example
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\pages\Dashboard.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/pages/Dashboard.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\config\db.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/config/db.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\frontend\src\pages\BoardView.jsx
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: frontend/src/pages/BoardView.jsx
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\models\Task.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/models/Task.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\routes\task.routes.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/routes/task.routes.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\controllers\task.controller.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/controllers/task.controller.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\middleware\auth.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/middleware/auth.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\services\task.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/services/task.service.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\utils\jwt.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/utils/jwt.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\models\Project.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/models/Project.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\models\User.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/models/User.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\controllers\label.controller.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/controllers/label.controller.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\middleware\validation.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/middleware/validation.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\middleware\errorHandler.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/middleware/errorHandler.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\routes\label.routes.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/routes/label.routes.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\routes\project.routes.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/routes/project.routes.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\services\project.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/services/project.service.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\controllers\auth.controller.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/controllers/auth.controller.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\controllers\project.controller.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/controllers/project.controller.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\routes\auth.routes.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/routes/auth.routes.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\models\Label.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/models/Label.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\services\label.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/services/label.service.js
+[2026-07-03 17:23:46] DEBUG: File written: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0\backend\src\services\auth.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Added: backend/src/services/auth.service.js
+[2026-07-03 17:23:46] INFO: [ProjectWriterService] Diff processing complete. Added: 59, Modified: 0, Deleted: 0, Unchanged: 0
+[2026-07-03 17:23:46] INFO: [GenerationService] ✓ Stage 11 complete. 59 files written → C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:46] INFO: [GitService] Initializing new Git repository at C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects\99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:48] INFO: [GitService] Initial commit created: 044950e42f12a2755cd7989bc9f83918a3ab99f2
+[2026-07-03 17:23:48] INFO: [GenerationService] ── Stage 12: ProjectService — persisting project metadata to MongoDB
+[2026-07-03 17:23:48] INFO: [ProjectService] Project created: 99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:48] INFO: [GenerationService] ✓ Stage 12 complete. Project saved: 99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:48] INFO: [GenerationService] ════════════════════════════════
+[2026-07-03 17:23:48] INFO: [GenerationService] Pipeline COMPLETE in 170091ms. Files: 59
+[2026-07-03 17:23:48] INFO: [GenerationService] ════════════════════════════════
+[2026-07-03 17:23:48] DEBUG: POST /api/v1/generate 200 90.839 ms — - bytes
+[2026-07-03 17:23:49] DEBUG: [WorkspaceService] File tree built for project 99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:49] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/files 200 790.042 ms — - bytes
+[2026-07-03 17:23:49] DEBUG: GET /api/v1/chat/99280638-cc9f-4d1d-8da0-4c047749b0a0 200 1083.417 ms — 59 bytes
+[2026-07-03 17:23:50] DEBUG: GET /api/v1/projects/99280638-cc9f-4d1d-8da0-4c047749b0a0/git/status 200 1707.070 ms — 282 bytes
+[2026-07-03 17:23:50] DEBUG: [WorkspaceService] File tree built for project 99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:50] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/files 304 962.439 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/chat/99280638-cc9f-4d1d-8da0-4c047749b0a0 304 1191.509 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File tree built for project 99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/files 304 708.896 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File served: frontend/src/components/AddTaskForm.jsx
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FAddTaskForm.jsx 200 215.853 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File tree built for project 99280638-cc9f-4d1d-8da0-4c047749b0a0
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/files 304 270.185 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/projects/99280638-cc9f-4d1d-8da0-4c047749b0a0/git/status 304 1066.056 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File served: frontend/src/components/ErrorDisplay.jsx
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FErrorDisplay.jsx 200 361.841 ms — 771 bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File served: frontend/src/components/KanbanBoard.jsx
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FKanbanBoard.jsx 200 411.332 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File served: frontend/src/components/Column.jsx
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FColumn.jsx 200 460.069 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File served: frontend/src/components/Modal.jsx
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FModal.jsx 200 384.754 ms — - bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File served: frontend/src/components/LoadingSpinner.jsx
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FLoadingSpinner.jsx 200 490.353 ms — 718 bytes
+[2026-07-03 17:23:51] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-03 17:23:51] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 200 441.191 ms — - bytes
+[2026-07-03 17:23:52] DEBUG: [WorkspaceService] File served: frontend/src/components/PriorityBadge.jsx
+[2026-07-03 17:23:52] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FPriorityBadge.jsx 200 523.383 ms — 841 bytes
+[2026-07-03 17:23:52] DEBUG: [WorkspaceService] File served: frontend/src/components/ProtectedRoute.jsx
+[2026-07-03 17:23:52] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FProtectedRoute.jsx 200 473.294 ms — 548 bytes
+[2026-07-03 17:23:52] DEBUG: [WorkspaceService] File served: frontend/src/components/Sidebar.jsx
+[2026-07-03 17:23:52] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FSidebar.jsx 200 476.668 ms — - bytes
+[2026-07-03 17:23:52] DEBUG: [WorkspaceService] File served: frontend/src/components/TaskCard.jsx
+[2026-07-03 17:23:52] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FTaskCard.jsx 200 472.775 ms — - bytes
+[2026-07-03 17:23:52] DEBUG: [WorkspaceService] File served: frontend/src/context/AuthContext.jsx
+[2026-07-03 17:23:52] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcontext%2FAuthContext.jsx 200 440.210 ms — - bytes
+[2026-07-03 17:23:52] DEBUG: [WorkspaceService] File served: frontend/src/context/TaskContext.jsx
+[2026-07-03 17:23:52] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcontext%2FTaskContext.jsx 200 435.847 ms — - bytes
+[2026-07-03 17:23:52] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useTasks.js
+[2026-07-03 17:23:52] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fhooks%2FuseTasks.js 200 583.374 ms — 427 bytes
+[2026-07-03 17:23:52] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useAuth.js
+[2026-07-03 17:23:52] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fhooks%2FuseAuth.js 200 821.865 ms — 425 bytes
+[2026-07-03 17:23:53] DEBUG: [WorkspaceService] File served: frontend/src/pages/BoardView.jsx
+[2026-07-03 17:23:53] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FBoardView.jsx 200 1079.905 ms — - bytes
+[2026-07-03 17:23:53] DEBUG: [WorkspaceService] File served: frontend/src/pages/Dashboard.jsx
+[2026-07-03 17:23:53] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FDashboard.jsx 200 1454.806 ms — - bytes
+[2026-07-03 17:23:53] DEBUG: [WorkspaceService] File served: frontend/src/pages/Login.jsx
+[2026-07-03 17:23:53] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FLogin.jsx 200 1498.491 ms — - bytes
+[2026-07-03 17:23:54] DEBUG: [WorkspaceService] File served: frontend/src/pages/Settings.jsx
+[2026-07-03 17:23:54] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FSettings.jsx 200 1155.231 ms — - bytes
+[2026-07-03 17:23:54] DEBUG: [WorkspaceService] File served: frontend/src/pages/Register.jsx
+[2026-07-03 17:23:54] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FRegister.jsx 200 1430.039 ms — - bytes
+[2026-07-03 17:23:54] DEBUG: [WorkspaceService] File served: frontend/src/pages/ListView.jsx
+[2026-07-03 17:23:54] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FListView.jsx 200 1826.231 ms — - bytes
+[2026-07-03 17:23:54] DEBUG: [WorkspaceService] File served: frontend/src/pages/TaskDetail.jsx
+[2026-07-03 17:23:54] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FTaskDetail.jsx 200 1122.912 ms — - bytes
+[2026-07-03 17:23:54] DEBUG: [WorkspaceService] File served: frontend/src/services/project.service.js
+[2026-07-03 17:23:54] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fservices%2Fproject.service.js 200 795.277 ms — - bytes
+[2026-07-03 17:23:55] DEBUG: [WorkspaceService] File served: frontend/src/services/label.service.js
+[2026-07-03 17:23:55] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fservices%2Flabel.service.js 200 1168.336 ms — - bytes
+[2026-07-03 17:23:55] DEBUG: [WorkspaceService] File served: frontend/src/services/auth.service.js
+[2026-07-03 17:23:55] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fservices%2Fauth.service.js 200 1275.112 ms — 901 bytes
+[2026-07-03 17:23:55] DEBUG: [WorkspaceService] File served: frontend/src/services/task.service.js
+[2026-07-03 17:23:55] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fservices%2Ftask.service.js 200 1203.924 ms — - bytes
+[2026-07-03 17:23:55] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-03 17:23:55] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2FApp.jsx 200 1025.120 ms — - bytes
+[2026-07-03 17:23:55] DEBUG: [WorkspaceService] File served: frontend/src/utils/api.js
+[2026-07-03 17:23:55] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Futils%2Fapi.js 200 1365.461 ms — - bytes
+[2026-07-03 17:23:56] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-03 17:23:56] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Findex.css 200 1218.736 ms — 738 bytes
+[2026-07-03 17:23:56] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-03 17:23:56] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fmain.jsx 200 1214.287 ms — 573 bytes
+[2026-07-03 17:23:56] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-03 17:23:56] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Findex.html 200 1236.546 ms — 508 bytes
+[2026-07-03 17:23:56] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-03 17:23:56] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fpackage.json 200 1053.092 ms — - bytes
+[2026-07-03 17:23:56] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-03 17:23:56] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Ftailwind.config.js 200 1204.074 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fvite.config.js 200 1373.772 ms — 333 bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/AddTaskForm.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FAddTaskForm.jsx 304 1206.037 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/ErrorDisplay.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FErrorDisplay.jsx 304 1145.664 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/KanbanBoard.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FKanbanBoard.jsx 304 1156.465 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/Column.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FColumn.jsx 304 1160.477 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/Modal.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FModal.jsx 304 988.899 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/LoadingSpinner.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FLoadingSpinner.jsx 304 656.988 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 322.191 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/PriorityBadge.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FPriorityBadge.jsx 304 255.326 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/ProtectedRoute.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FProtectedRoute.jsx 304 224.340 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/Sidebar.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FSidebar.jsx 304 193.586 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/components/TaskCard.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcomponents%2FTaskCard.jsx 304 204.160 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/context/AuthContext.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcontext%2FAuthContext.jsx 304 205.922 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/context/TaskContext.jsx
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fcontext%2FTaskContext.jsx 304 188.651 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useTasks.js
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fhooks%2FuseTasks.js 304 205.605 ms — - bytes
+[2026-07-03 17:23:57] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useAuth.js
+[2026-07-03 17:23:57] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fhooks%2FuseAuth.js 304 205.904 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/BoardView.jsx
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FBoardView.jsx 304 173.236 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/Dashboard.jsx
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FDashboard.jsx 304 204.743 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/Login.jsx
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FLogin.jsx 304 206.714 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/Settings.jsx
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FSettings.jsx 304 171.706 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/Register.jsx
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FRegister.jsx 304 206.697 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/ListView.jsx
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FListView.jsx 304 208.868 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/pages/TaskDetail.jsx
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fpages%2FTaskDetail.jsx 304 189.621 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/services/auth.service.js
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fservices%2Fauth.service.js 304 187.745 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/services/project.service.js
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fservices%2Fproject.service.js 304 235.200 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/services/label.service.js
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fservices%2Flabel.service.js 304 245.223 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/utils/api.js
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Futils%2Fapi.js 304 216.046 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/services/task.service.js
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fservices%2Ftask.service.js 304 253.307 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2FApp.jsx 304 258.359 ms — - bytes
+[2026-07-03 17:23:58] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-03 17:23:58] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Findex.css 304 549.860 ms — - bytes
+[2026-07-03 17:23:59] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-03 17:23:59] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fsrc%2Fmain.jsx 304 966.144 ms — - bytes
+[2026-07-03 17:23:59] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-03 17:23:59] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Findex.html 304 1228.929 ms — - bytes
+[2026-07-03 17:23:59] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-03 17:23:59] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fpackage.json 304 1390.787 ms — - bytes
+[2026-07-03 17:24:00] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-03 17:24:00] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fvite.config.js 304 1602.100 ms — - bytes
+[2026-07-03 17:24:00] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-03 17:24:00] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Ftailwind.config.js 304 1676.576 ms — - bytes

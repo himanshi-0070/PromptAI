@@ -88,12 +88,12 @@ export default function PreviewPanel({ project }) {
     <head>
       <meta charset="UTF-8">
       <script src="https://cdn.tailwindcss.com"></script>
-      <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-      <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-      <script src="https://unpkg.com/react-router-dom@6.22.3/umd/react-router-dom.production.min.js" crossorigin></script>
-      <script src="https://unpkg.com/lucide-react@0.359.0/dist/umd/lucide-react.min.js"></script>
-      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-      <script src="https://unpkg.com/@babel/standalone@7.24.0/babel.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/react@18/umd/react.development.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.development.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/react-router-dom@6.22.3/dist/umd/react-router-dom.production.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/lucide-react@0.359.0/dist/umd/lucide-react.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios@1.6.8/dist/axios.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.24.0/babel.min.js" crossorigin="anonymous"></script>
       <style>
         body {
           background-color: #0c0d12;
