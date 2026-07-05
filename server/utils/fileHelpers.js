@@ -67,7 +67,13 @@ async function readDirRecursive(dirPath, base = dirPath) {
   const results = [];
   const entries = await fs.readdir(dirPath, { withFileTypes: true });
 
+  const ignoreDirs = ['node_modules', '.git', 'dist', 'build', '.next'];
+
   for (const entry of entries) {
+    if (entry.isDirectory() && ignoreDirs.includes(entry.name)) {
+      continue;
+    }
+
     const fullPath = path.join(dirPath, entry.name);
     if (entry.isDirectory()) {
       const nested = await readDirRecursive(fullPath, base);

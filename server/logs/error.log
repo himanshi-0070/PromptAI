@@ -446,3 +446,28 @@
 [2026-07-03 16:59:11] ERROR: TypeError: this._buildTree is not a function
     at WorkspaceService.getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\services\WorkspaceService.js:28:23)
     at async getFileTree (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\workspace.controller.js:17:18)
+[2026-07-03 17:19:53] ERROR: Error: Session hijacked or token reused. Please log in again.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:180:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-07-05 10:05:18] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-05 10:05:18] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)

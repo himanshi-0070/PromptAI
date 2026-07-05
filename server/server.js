@@ -49,7 +49,7 @@ const app = express();
 // Rate limiting configuration
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 200, // Limit each IP to 200 requests per window
+  max: 10000, // Increased limit to prevent 429 errors on project preview loads
   standardHeaders: true, // Return rate limit info in standard headers
   legacyHeaders: false, // Disable older X-RateLimit headers
   message: {

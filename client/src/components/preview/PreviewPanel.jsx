@@ -41,13 +41,18 @@ export default function PreviewPanel({ project }) {
         throw new Error('No frontend files found in this project.')
       }
 
-      // 3. Load contents for each frontend file
-      const loadPromises = frontendFiles.map(async (file) => {
-        const data = await workspaceService.getFileContent(project.projectId, file.path)
-        return { path: file.path, content: data.content }
-      })
-
-      const loaded = await Promise.all(loadPromises)
+      // 3. Load contents for each frontend file in chunks to avoid rate limiting
+      const loaded = []
+      const chunkSize = 5
+      for (let i = 0; i < frontendFiles.length; i += chunkSize) {
+        const chunk = frontendFiles.slice(i, i + chunkSize)
+        const chunkPromises = chunk.map(async (file) => {
+          const data = await workspaceService.getFileContent(project.projectId, file.path)
+          return { path: file.path, content: data.content }
+        })
+        const results = await Promise.all(chunkPromises)
+        loaded.push(...results)
+      }
 
       // 4. Send files to iframe
       if (iframeRef.current && iframeRef.current.contentWindow) {
@@ -91,6 +96,7 @@ export default function PreviewPanel({ project }) {
       <script src="https://cdn.jsdelivr.net/npm/react@18/umd/react.development.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.development.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/react-router-dom@6.22.3/dist/umd/react-router-dom.production.min.js" crossorigin="anonymous"></script>
+      <script>window.react = window.React;</script>
       <script src="https://cdn.jsdelivr.net/npm/lucide-react@0.359.0/dist/umd/lucide-react.min.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/axios@1.6.8/dist/axios.min.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.24.0/babel.min.js" crossorigin="anonymous"></script>

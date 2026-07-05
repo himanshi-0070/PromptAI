@@ -1799,3 +1799,1092 @@
 [2026-07-03 17:24:00] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Fvite.config.js 304 1602.100 ms — - bytes
 [2026-07-03 17:24:00] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
 [2026-07-03 17:24:00] DEBUG: GET /api/v1/workspace/99280638-cc9f-4d1d-8da0-4c047749b0a0/file?path=frontend%2Ftailwind.config.js 304 1676.576 ms — - bytes
+[2026-07-05 10:05:06] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-05 10:05:07] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-05 10:05:11] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-05 10:05:11] INFO: [DB] Database: promptai
+[2026-07-05 10:05:11] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-05 10:05:11] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-05 10:05:11] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-05 10:05:11] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-05 10:05:18] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-05 10:05:18] DEBUG: POST /api/v1/auth/refresh 401 14.834 ms — 73 bytes
+[2026-07-05 10:05:18] ERROR: Error: Refresh token cookie is missing.
+    at refreshSession (C:\Users\Himanshi singh\Downloads\PromptAI\server\controllers\auth.controller.js:154:13)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Himanshi singh\Downloads\PromptAI\server\node_modules\express\lib\router\index.js:47:12)
+[2026-07-05 10:05:18] DEBUG: POST /api/v1/auth/refresh 401 5.186 ms — 73 bytes
+[2026-07-05 10:05:31] INFO: [AuthController] Authenticating Google Sign-In request
+[2026-07-05 10:05:32] DEBUG: POST /api/v1/auth/google 200 1261.288 ms — 690 bytes
+[2026-07-05 10:05:33] DEBUG: [HistoryService] Fetched 2 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-05 10:05:33] DEBUG: GET /api/v1/history?page=1&limit=4&search= 200 251.623 ms — - bytes
+[2026-07-05 10:05:33] DEBUG: [HistoryService] Fetched 2 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-05 10:05:33] DEBUG: GET /api/v1/history?page=1&limit=4&search= 304 243.227 ms — - bytes
+[2026-07-05 10:09:29] DEBUG: [HistoryService] Fetched 2 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-05 10:09:29] DEBUG: GET /api/v1/history?page=1&limit=12&search= 200 395.256 ms — - bytes
+[2026-07-05 10:09:30] DEBUG: [HistoryService] Fetched 2 projects for user 53f1c816-ac77-4bfa-88f5-12b6016c198f (page 1)
+[2026-07-05 10:09:30] DEBUG: GET /api/v1/history?page=1&limit=12&search= 304 750.156 ms — - bytes
+[2026-07-05 10:09:39] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 200 2226.188 ms — 59 bytes
+[2026-07-05 10:09:40] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 814.849 ms — - bytes
+[2026-07-05 10:09:40] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 200 3386.454 ms — - bytes
+[2026-07-05 10:09:40] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 326.780 ms — - bytes
+[2026-07-05 10:09:41] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 540.150 ms — - bytes
+[2026-07-05 10:09:41] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 200 4208.810 ms — - bytes
+[2026-07-05 10:09:41] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:09:41] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 4567.150 ms — - bytes
+[2026-07-05 10:09:41] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 690.728 ms — - bytes
+[2026-07-05 10:09:42] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 200 1190.592 ms — 55 bytes
+[2026-07-05 10:09:42] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 200 1331.821 ms — - bytes
+[2026-07-05 10:09:44] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 1447.316 ms — - bytes
+[2026-07-05 10:09:44] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:09:45] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 3306.695 ms — - bytes
+[2026-07-05 10:09:47] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:09:47] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 2252.166 ms — - bytes
+[2026-07-05 10:09:50] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:09:50] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 3050.333 ms — - bytes
+[2026-07-05 10:09:52] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:09:52] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 2013.154 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@alloc/quick-lru/index.d.ts
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40alloc%2Fquick-lru%2Findex.d.ts 200 417.207 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@alloc/quick-lru/license
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40alloc%2Fquick-lru%2Flicense 200 420.428 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@alloc/quick-lru/index.js
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40alloc%2Fquick-lru%2Findex.js 200 468.194 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/code-frame/lib/index.js
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcode-frame%2Flib%2Findex.js 200 191.295 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/code-frame/lib/index.js.map
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcode-frame%2Flib%2Findex.js.map 200 200.376 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/code-frame/LICENSE
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcode-frame%2FLICENSE 200 261.132 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@alloc/quick-lru/readme.md
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40alloc%2Fquick-lru%2Freadme.md 200 1263.035 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@alloc/quick-lru/package.json
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40alloc%2Fquick-lru%2Fpackage.json 200 1277.007 ms — - bytes
+[2026-07-05 10:09:53] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/code-frame/package.json
+[2026-07-05 10:09:53] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcode-frame%2Fpackage.json 200 234.339 ms — - bytes
+[2026-07-05 10:09:54] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/code-frame/README.md
+[2026-07-05 10:09:54] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcode-frame%2FREADME.md 200 207.373 ms — 501 bytes
+[2026-07-05 10:09:54] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:09:54] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/data/corejs2-built-ins.json
+[2026-07-05 10:09:54] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fdata%2Fcorejs2-built-ins.json 200 289.903 ms — - bytes
+[2026-07-05 10:09:54] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 1695.281 ms — - bytes
+[2026-07-05 10:09:54] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/data/corejs3-shipped-proposals.json
+[2026-07-05 10:09:54] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fdata%2Fcorejs3-shipped-proposals.json 200 233.311 ms — 270 bytes
+[2026-07-05 10:09:54] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/data/native-modules.json
+[2026-07-05 10:09:54] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fdata%2Fnative-modules.json 200 309.563 ms — 552 bytes
+[2026-07-05 10:09:55] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/data/overlapping-plugins.json
+[2026-07-05 10:09:55] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fdata%2Foverlapping-plugins.json 200 359.669 ms — - bytes
+[2026-07-05 10:09:55] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/data/plugin-bugfixes.json
+[2026-07-05 10:09:55] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fdata%2Fplugin-bugfixes.json 200 312.909 ms — - bytes
+[2026-07-05 10:09:55] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/data/plugins.json
+[2026-07-05 10:09:55] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fdata%2Fplugins.json 200 228.999 ms — - bytes
+[2026-07-05 10:09:55] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/corejs2-built-ins.js
+[2026-07-05 10:09:55] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fcorejs2-built-ins.js 200 219.255 ms — 298 bytes
+[2026-07-05 10:09:55] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/corejs3-shipped-proposals.js
+[2026-07-05 10:09:55] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fcorejs3-shipped-proposals.js 200 353.201 ms — 334 bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/LICENSE
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2FLICENSE 200 500.670 ms — - bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/native-modules.js
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fnative-modules.js 200 524.289 ms — 299 bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/overlapping-plugins.js
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Foverlapping-plugins.js 200 529.978 ms — 309 bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/plugins.js
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fplugins.js 200 383.777 ms — 285 bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/package.json
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fpackage.json 200 577.784 ms — - bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/README.md
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2FREADME.md 200 417.770 ms — 475 bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/compat-data/plugin-bugfixes.js
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcompat-data%2Fplugin-bugfixes.js 200 707.304 ms — 301 bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/configuration.js
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fconfiguration.js 200 386.948 ms — - bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/configuration.js.map
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fconfiguration.js.map 200 315.818 ms — - bytes
+[2026-07-05 10:09:56] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/import.cjs
+[2026-07-05 10:09:56] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fimport.cjs 200 326.864 ms — 288 bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/import.cjs.map
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fimport.cjs.map 200 338.086 ms — 717 bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/index-browser.js
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Findex-browser.js 200 387.158 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/index-browser.js.map
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Findex-browser.js.map 200 361.100 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/index.js
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Findex.js 200 328.981 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/index.js.map
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Findex.js.map 200 335.253 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/module-types.js
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/module-types.js.map
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fmodule-types.js 200 433.964 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fmodule-types.js.map 200 280.998 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/package.js.map
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fpackage.js.map 200 280.370 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/package.js
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fpackage.js 200 348.540 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/plugins.js
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fplugins.js 200 290.208 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/plugins.js.map
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Fplugins.js.map 200 222.924 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/types.js
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Ftypes.js 200 251.688 ms — 225 bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/types.js.map
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Ftypes.js.map 200 206.715 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/utils.js
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Futils.js 200 219.680 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/files/utils.js.map
+[2026-07-05 10:09:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffiles%2Futils.js.map 200 218.603 ms — - bytes
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/helpers/config-api.js.map
+[2026-07-05 10:09:57] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/helpers/config-api.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fhelpers%2Fconfig-api.js 200 265.249 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fhelpers%2Fconfig-api.js.map 200 239.097 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/helpers/deep-array.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fhelpers%2Fdeep-array.js 200 286.354 ms — 691 bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/helpers/deep-array.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fhelpers%2Fdeep-array.js.map 200 255.361 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/helpers/environment.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fhelpers%2Fenvironment.js 200 254.576 ms — 462 bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/validation/option-assertions.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fvalidation%2Foption-assertions.js 200 195.735 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/helpers/environment.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fhelpers%2Fenvironment.js.map 200 224.956 ms — 696 bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/validation/option-assertions.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fvalidation%2Foption-assertions.js.map 200 217.680 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/validation/options.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fvalidation%2Foptions.js 200 204.529 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/validation/options.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fvalidation%2Foptions.js.map 200 221.381 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/validation/plugins.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fvalidation%2Fplugins.js 200 252.373 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/validation/plugins.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fvalidation%2Fplugins.js.map 200 250.638 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/validation/removed.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fvalidation%2Fremoved.js 200 208.434 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/cache-contexts.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fcache-contexts.js 200 265.111 ms — 237 bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/validation/removed.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fvalidation%2Fremoved.js.map 200 315.449 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/cache-contexts.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fcache-contexts.js.map 200 284.028 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/caching.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fcaching.js 200 277.960 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/caching.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fcaching.js.map 200 248.573 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/config-chain.js
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fconfig-chain.js 200 246.282 ms — - bytes
+[2026-07-05 10:09:58] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/config-chain.js.map
+[2026-07-05 10:09:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fconfig-chain.js.map 200 238.732 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/config-descriptors.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fconfig-descriptors.js 200 225.195 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/config-descriptors.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fconfig-descriptors.js.map 200 230.634 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/full.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffull.js 200 241.877 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/full.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Ffull.js.map 200 221.202 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/index.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Findex.js 200 240.383 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/index.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Findex.js.map 200 221.130 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/item.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fitem.js 200 225.891 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/item.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fitem.js.map 200 258.179 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/partial.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fpartial.js 200 252.826 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/partial.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fpartial.js.map 200 260.178 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/pattern-to-regex.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fpattern-to-regex.js 200 213.506 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/pattern-to-regex.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fpattern-to-regex.js.map 200 258.195 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/plugin.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fplugin.js 200 234.941 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/plugin.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fplugin.js.map 200 211.630 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/printer.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fprinter.js 200 212.771 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/printer.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fprinter.js.map 200 233.542 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/resolve-targets-browser.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fresolve-targets-browser.js.map 200 217.879 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/resolve-targets-browser.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fresolve-targets-browser.js 200 281.594 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/resolve-targets.js
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fresolve-targets.js 200 270.359 ms — - bytes
+[2026-07-05 10:09:59] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/resolve-targets.js.map
+[2026-07-05 10:09:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Fresolve-targets.js.map 200 260.550 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/util.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Futil.js 200 261.571 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/errors/config-error.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ferrors%2Fconfig-error.js 200 296.943 ms — 661 bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/config/util.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fconfig%2Futil.js.map 200 339.556 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/errors/config-error.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ferrors%2Fconfig-error.js.map 200 263.002 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/errors/rewrite-stack-trace.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ferrors%2Frewrite-stack-trace.js 200 265.058 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/errors/rewrite-stack-trace.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ferrors%2Frewrite-stack-trace.js.map 200 326.686 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/gensync-utils/async.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fgensync-utils%2Fasync.js.map 200 242.509 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/gensync-utils/async.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fgensync-utils%2Fasync.js 200 280.241 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/gensync-utils/fs.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fgensync-utils%2Ffs.js 200 276.277 ms — 788 bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/gensync-utils/fs.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fgensync-utils%2Ffs.js.map 200 277.077 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/gensync-utils/functional.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fgensync-utils%2Ffunctional.js 200 262.687 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/gensync-utils/functional.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fgensync-utils%2Ffunctional.js.map 200 204.795 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/parser/util/missing-plugin-helper.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fparser%2Futil%2Fmissing-plugin-helper.js 200 233.359 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/parser/util/missing-plugin-helper.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fparser%2Futil%2Fmissing-plugin-helper.js.map 200 219.517 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/parser/index.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fparser%2Findex.js 200 231.166 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/parser/index.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fparser%2Findex.js.map 200 201.064 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/tools/build-external-helpers.js
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftools%2Fbuild-external-helpers.js 200 260.882 ms — - bytes
+[2026-07-05 10:10:00] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/tools/build-external-helpers.js.map
+[2026-07-05 10:10:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftools%2Fbuild-external-helpers.js.map 200 220.193 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/file/babel-7-helpers.cjs
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Ffile%2Fbabel-7-helpers.cjs 200 242.075 ms — 325 bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/file/babel-7-helpers.cjs.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Ffile%2Fbabel-7-helpers.cjs.map 200 238.873 ms — 788 bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/file/file.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Ffile%2Ffile.js 200 221.644 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/file/file.js.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Ffile%2Ffile.js.map 200 239.033 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/file/generate.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Ffile%2Fgenerate.js 200 291.234 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/file/merge-map.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Ffile%2Fmerge-map.js 200 248.970 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/file/generate.js.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Ffile%2Fgenerate.js.map 200 300.842 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/file/merge-map.js.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Ffile%2Fmerge-map.js.map 200 268.436 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/util/clone-deep.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Futil%2Fclone-deep.js 200 223.720 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/util/clone-deep.js.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Futil%2Fclone-deep.js.map 200 251.016 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/block-hoist-plugin.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fblock-hoist-plugin.js 200 244.617 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/block-hoist-plugin.js.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fblock-hoist-plugin.js.map 200 254.231 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/index.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Findex.js 200 261.861 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/index.js.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Findex.js.map 200 263.664 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/normalize-file.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fnormalize-file.js 200 203.293 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/normalize-file.js.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fnormalize-file.js.map 200 223.733 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/normalize-opts.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fnormalize-opts.js 200 252.174 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/normalize-opts.js.map
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fnormalize-opts.js.map 200 241.438 ms — - bytes
+[2026-07-05 10:10:01] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/plugin-pass.js
+[2026-07-05 10:10:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fplugin-pass.js 200 245.504 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/plugin-pass.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fplugin-pass.js.map 200 220.539 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/read-input-source-map-file-browser.js
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fread-input-source-map-file-browser.js 200 206.641 ms — 523 bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/read-input-source-map-file-browser.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fread-input-source-map-file-browser.js.map 200 253.099 ms — 650 bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/read-input-source-map-file.js
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fread-input-source-map-file.js 200 206.291 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/vendor/import-meta-resolve.js
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fvendor%2Fimport-meta-resolve.js 200 233.332 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transformation/read-input-source-map-file.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransformation%2Fread-input-source-map-file.js.map 200 259.819 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/vendor/import-meta-resolve.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fvendor%2Fimport-meta-resolve.js.map 200 247.932 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/index.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Findex.js.map 200 253.715 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/index.js
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Findex.js 200 308.308 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/parse.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fparse.js.map 200 312.269 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/parse.js
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Fparse.js 200 337.136 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transform-ast.js
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransform-ast.js 200 325.237 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transform-file-browser.js
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransform-file-browser.js 200 297.486 ms — 932 bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transform-ast.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransform-ast.js.map 200 328.559 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transform-file-browser.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransform-file-browser.js.map 200 207.267 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transform-file.js
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransform-file.js 200 193.783 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transform-file.js.map
+[2026-07-05 10:10:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransform-file.js.map 200 200.324 ms — - bytes
+[2026-07-05 10:10:02] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transform.js
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransform.js 200 224.250 ms — - bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/lib/transform.js.map
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Flib%2Ftransform.js.map 200 257.692 ms — - bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/src/config/files/index.ts
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fsrc%2Fconfig%2Ffiles%2Findex.ts 200 294.887 ms — 1018 bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/src/config/files/index-browser.ts
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/src/config/resolve-targets-browser.ts
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fsrc%2Fconfig%2Fresolve-targets-browser.ts 200 272.085 ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fsrc%2Fconfig%2Ffiles%2Findex-browser.ts 200 318.513 ms — - bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/src/config/resolve-targets.ts
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fsrc%2Fconfig%2Fresolve-targets.ts 200 270.680 ms — - bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/src/transformation/read-input-source-map-file-browser.ts
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fsrc%2Ftransformation%2Fread-input-source-map-file-browser.ts 200 252.872 ms — 349 bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/src/transformation/read-input-source-map-file.ts
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fsrc%2Ftransformation%2Fread-input-source-map-file.ts 200 213.344 ms — - bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/src/transform-file-browser.ts
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fpackage.json - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fsrc%2Ftransform-file-browser.ts 200 223.196 ms — - bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/src/transform-file.ts
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2Fsrc%2Ftransform-file.ts 200 244.566 ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2FLICENSE - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fbase.js - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fcore%2FREADME.md - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fjsx.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/package.json
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/LICENSE
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fclasses.js - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fbase.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fmethods.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fmethods.js - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fdeprecated.js - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fbuffer.js - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fnode%2Fparentheses.js - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fhelper-compilation-targets%2Flib%2Fdebug.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fexpressions.js - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fhelper-module-imports%2Flib%2Fimport-injector.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fhelpers%2Flib%2Fhelpers%2FclassPrivateFieldDestructureSet.js - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fhelper-compilation-targets%2Flib%2Fpretty.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fclasses.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Fgenerator%2Flib%2Fgenerators%2Fstatements.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fnode_modules%2F%40babel%2Ftraverse%2Flib%2Fscope%2Flib%2Frenamer.js.map - - ms — - bytes
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/base.js.map
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/core/README.md
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/base.js
+[2026-07-05 10:10:03] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/classes.js
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/expressions.js
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/methods.js
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/jsx.js.map
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/statements.js.map
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/methods.js.map
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/node/parentheses.js
+[2026-07-05 10:10:04] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:10:04] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/helper-compilation-targets/lib/debug.js.map
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/buffer.js
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/helpers/lib/helpers/classPrivateFieldDestructureSet.js
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/helper-compilation-targets/lib/pretty.js.map
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/helper-module-imports/lib/import-injector.js.map
+[2026-07-05 10:10:04] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/traverse/lib/scope/lib/renamer.js.map
+[2026-07-05 10:10:04] DEBUG: POST /api/v1/auth/refresh 200 530.683 ms — 700 bytes
+[2026-07-05 10:10:04] DEBUG: POST /api/v1/auth/refresh 200 548.756 ms — 700 bytes
+[2026-07-05 10:10:05] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/deprecated.js
+[2026-07-05 10:10:05] DEBUG: [WorkspaceService] File served: frontend/node_modules/@babel/generator/lib/generators/classes.js.map
+[2026-07-05 10:10:05] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 415.084 ms — - bytes
+[2026-07-05 10:10:05] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 425.045 ms — - bytes
+[2026-07-05 10:10:06] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 365.260 ms — - bytes
+[2026-07-05 10:10:06] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 700.024 ms — - bytes
+[2026-07-05 10:10:06] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 200 1105.909 ms — - bytes
+[2026-07-05 10:10:07] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 287.653 ms — - bytes
+[2026-07-05 10:10:07] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:10:07] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 2276.255 ms — - bytes
+[2026-07-05 10:10:08] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 1391.514 ms — - bytes
+[2026-07-05 10:12:07] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-05 10:12:07] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-05 10:12:14] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-05 10:12:14] INFO: [DB] Database: promptai
+[2026-07-05 10:12:14] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-05 10:12:14] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-05 10:12:14] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-05 10:12:14] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-05 10:13:07] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:13:07] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:13:08] DEBUG: POST /api/v1/auth/refresh 200 478.854 ms — 700 bytes
+[2026-07-05 10:13:08] DEBUG: POST /api/v1/auth/refresh 200 547.670 ms — 700 bytes
+[2026-07-05 10:13:09] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:09] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 200 533.823 ms — - bytes
+[2026-07-05 10:13:09] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 200 577.487 ms — 59 bytes
+[2026-07-05 10:13:09] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:09] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 295.690 ms — - bytes
+[2026-07-05 10:13:10] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 408.116 ms — - bytes
+[2026-07-05 10:13:10] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 1355.927 ms — - bytes
+[2026-07-05 10:13:10] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 257.556 ms — - bytes
+[2026-07-05 10:13:10] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 258.177 ms — - bytes
+[2026-07-05 10:13:10] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 200 1701.668 ms — 339 bytes
+[2026-07-05 10:13:10] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 453.457 ms — - bytes
+[2026-07-05 10:13:10] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 245.885 ms — - bytes
+[2026-07-05 10:13:11] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 261.181 ms — - bytes
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 385.620 ms — - bytes
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 674.559 ms — - bytes
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 200 655.721 ms — 55 bytes
+[2026-07-05 10:13:11] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 281.644 ms — - bytes
+[2026-07-05 10:13:11] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 200 246.795 ms — - bytes
+[2026-07-05 10:13:11] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:13:11] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 200 334.608 ms — - bytes
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 200 347.558 ms — - bytes
+[2026-07-05 10:13:11] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:13:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 304 297.755 ms — - bytes
+[2026-07-05 10:13:12] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:13:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 304 336.898 ms — - bytes
+[2026-07-05 10:13:12] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:13:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 304 347.852 ms — - bytes
+[2026-07-05 10:13:12] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 675.073 ms — - bytes
+[2026-07-05 10:13:12] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:13:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 200 1155.152 ms — - bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 200 1629.863 ms — - bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 500.887 ms — - bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 200 429.323 ms — 415 bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 304 547.737 ms — - bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 200 534.132 ms — - bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 200 557.872 ms — - bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 200 620.274 ms — 1003 bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 200 675.430 ms — - bytes
+[2026-07-05 10:13:13] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:13:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 295.780 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 315.029 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 285.046 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 464.239 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 451.124 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 200 455.749 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 200 392.461 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 200 389.760 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 200 381.878 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 318.719 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 309.137 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 200 550.926 ms — - bytes
+[2026-07-05 10:13:14] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:13:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 489.276 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 565.764 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 200 463.321 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 200 498.871 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 200 534.818 ms — 927 bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 200 452.801 ms — 695 bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 621.644 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 200 532.692 ms — 420 bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 351.030 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 381.851 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 447.624 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 473.415 ms — - bytes
+[2026-07-05 10:13:15] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:13:15] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 200 398.381 ms — 943 bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 427.797 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 200 273.715 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 200 268.644 ms — 814 bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 200 312.330 ms — 555 bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 200 324.586 ms — 467 bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 247.761 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 279.226 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 298.443 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 200 384.453 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 460.657 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 514.407 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 200 447.674 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 200 426.110 ms — - bytes
+[2026-07-05 10:13:16] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:13:16] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 200 483.807 ms — 474 bytes
+[2026-07-05 10:13:17] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:13:17] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 304 356.171 ms — - bytes
+[2026-07-05 10:13:17] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:13:17] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 454.324 ms — - bytes
+[2026-07-05 10:13:17] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:13:17] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 479.248 ms — - bytes
+[2026-07-05 10:13:17] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:13:17] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 457.611 ms — - bytes
+[2026-07-05 10:13:57] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:13:57] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:13:57] DEBUG: POST /api/v1/auth/refresh 200 428.342 ms — 700 bytes
+[2026-07-05 10:13:57] DEBUG: POST /api/v1/auth/refresh 200 437.850 ms — 700 bytes
+[2026-07-05 10:13:58] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 297.080 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 343.811 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 393.587 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 219.157 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 207.297 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 672.703 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 340.987 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 253.212 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 335.537 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 361.104 ms — - bytes
+[2026-07-05 10:13:59] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 572.332 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 536.438 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 202.329 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 322.396 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 304 182.128 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 204.720 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 304 257.564 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 304 325.174 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 304 350.262 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 243.914 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 304 252.737 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 575.804 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 304 230.745 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 304 224.912 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 304 272.208 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 234.997 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 237.737 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 234.106 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 299.711 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 272.034 ms — - bytes
+[2026-07-05 10:14:00] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:14:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 215.954 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 257.897 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 235.388 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 278.221 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 260.979 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 256.602 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 276.305 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 281.851 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 211.927 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 242.614 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 239.364 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 216.689 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 192.980 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 201.805 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 213.838 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 254.170 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 255.942 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 268.754 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 211.829 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 282.030 ms — - bytes
+[2026-07-05 10:14:01] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:14:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 257.768 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 259.736 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 267.349 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 310.378 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 219.257 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 265.294 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 271.225 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 261.321 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 296.292 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 270.540 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 271.635 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 237.116 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 214.644 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 241.735 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 253.879 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 304 275.690 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 295.390 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 227.385 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 206.992 ms — - bytes
+[2026-07-05 10:14:02] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:14:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 202.783 ms — - bytes
+[2026-07-05 10:14:03] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:14:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 273.012 ms — - bytes
+[2026-07-05 10:14:03] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:14:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 304 286.838 ms — - bytes
+[2026-07-05 10:14:03] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:14:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 266.830 ms — - bytes
+[2026-07-05 10:14:03] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:14:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 275.008 ms — - bytes
+[2026-07-05 10:15:26] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:15:26] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 1248.996 ms — - bytes
+[2026-07-05 10:15:27] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:15:27] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 304 886.546 ms — - bytes
+[2026-07-05 10:15:27] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:15:27] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 304 967.224 ms — - bytes
+[2026-07-05 10:15:27] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:15:27] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 304 1002.071 ms — - bytes
+[2026-07-05 10:15:27] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:15:27] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 1005.843 ms — - bytes
+[2026-07-05 10:15:27] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:15:27] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 304 1012.314 ms — - bytes
+[2026-07-05 10:15:30] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:15:30] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 3235.730 ms — - bytes
+[2026-07-05 10:15:30] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:15:30] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 3243.946 ms — - bytes
+[2026-07-05 10:15:30] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:15:30] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 3357.635 ms — - bytes
+[2026-07-05 10:15:30] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:15:30] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 3337.523 ms — - bytes
+[2026-07-05 10:15:30] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:15:30] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 3366.447 ms — - bytes
+[2026-07-05 10:15:33] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:15:33] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 2310.754 ms — - bytes
+[2026-07-05 10:15:33] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:15:33] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 2283.326 ms — - bytes
+[2026-07-05 10:15:33] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:15:33] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 2297.435 ms — - bytes
+[2026-07-05 10:15:33] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:15:33] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 2283.032 ms — - bytes
+[2026-07-05 10:15:33] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:15:33] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 2311.376 ms — - bytes
+[2026-07-05 10:15:35] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:15:35] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 2507.709 ms — - bytes
+[2026-07-05 10:15:36] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:15:36] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 2679.707 ms — - bytes
+[2026-07-05 10:15:36] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:15:36] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 2792.895 ms — - bytes
+[2026-07-05 10:15:36] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:15:36] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 2793.072 ms — - bytes
+[2026-07-05 10:15:36] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:15:36] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 2794.577 ms — - bytes
+[2026-07-05 10:15:37] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:15:37] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 1240.199 ms — - bytes
+[2026-07-05 10:15:37] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:15:37] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 1301.469 ms — - bytes
+[2026-07-05 10:15:37] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:15:37] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 1364.911 ms — - bytes
+[2026-07-05 10:15:37] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:15:37] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 1419.265 ms — - bytes
+[2026-07-05 10:15:37] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:15:37] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 1389.861 ms — - bytes
+[2026-07-05 10:15:40] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:15:40] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 304 3059.274 ms — - bytes
+[2026-07-05 10:15:40] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:15:40] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 3092.142 ms — - bytes
+[2026-07-05 10:15:40] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:15:40] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 3116.826 ms — - bytes
+[2026-07-05 10:15:40] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:15:40] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 3154.231 ms — - bytes
+[2026-07-05 10:15:42] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:15:42] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:15:47] DEBUG: POST /api/v1/auth/refresh 200 4362.877 ms — 700 bytes
+[2026-07-05 10:15:47] DEBUG: POST /api/v1/auth/refresh 200 4359.682 ms — 700 bytes
+[2026-07-05 10:15:49] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:15:49] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 1241.315 ms — - bytes
+[2026-07-05 10:15:49] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 1422.050 ms — - bytes
+[2026-07-05 10:15:50] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 1932.477 ms — - bytes
+[2026-07-05 10:15:50] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:15:50] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 753.750 ms — - bytes
+[2026-07-05 10:15:50] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 632.580 ms — - bytes
+[2026-07-05 10:15:50] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 2153.493 ms — - bytes
+[2026-07-05 10:15:50] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:15:50] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 372.084 ms — - bytes
+[2026-07-05 10:15:50] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 540.783 ms — - bytes
+[2026-07-05 10:15:50] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:15:50] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 251.575 ms — - bytes
+[2026-07-05 10:15:51] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 575.790 ms — - bytes
+[2026-07-05 10:15:51] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 662.240 ms — - bytes
+[2026-07-05 10:15:51] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 459.192 ms — - bytes
+[2026-07-05 10:15:51] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:15:51] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 343.945 ms — - bytes
+[2026-07-05 10:15:51] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:15:51] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 269.145 ms — - bytes
+[2026-07-05 10:15:51] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 389.737 ms — - bytes
+[2026-07-05 10:15:51] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 623.646 ms — - bytes
+[2026-07-05 10:16:35] INFO: [GeminiProvider] Initialized with model: gemini-2.5-flash
+[2026-07-05 10:16:35] INFO: [Bootstrap] Starting PromptAI server...
+[2026-07-05 10:16:41] INFO: [DB] MongoDB connected: ac-dwbs5zq-shard-00-00.6vlse7k.mongodb.net
+[2026-07-05 10:16:41] INFO: [DB] Database: promptai
+[2026-07-05 10:16:41] INFO: [Bootstrap] Write permissions verified: C:\Users\Himanshi singh\Downloads\PromptAI\server\generated-projects
+[2026-07-05 10:16:41] INFO: [Bootstrap] PromptAI server running on port 5000 [development]
+[2026-07-05 10:16:41] INFO: [Bootstrap] API base: http://localhost:5000/api/v1
+[2026-07-05 10:16:41] INFO: [Bootstrap] Client origin: http://localhost:5173
+[2026-07-05 10:16:54] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:16:54] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:16:55] DEBUG: POST /api/v1/auth/refresh 200 1247.309 ms — 700 bytes
+[2026-07-05 10:16:55] DEBUG: POST /api/v1/auth/refresh 200 1316.982 ms — 700 bytes
+[2026-07-05 10:16:57] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:16:57] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 872.470 ms — - bytes
+[2026-07-05 10:16:57] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 990.445 ms — - bytes
+[2026-07-05 10:16:58] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:16:58] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 514.006 ms — - bytes
+[2026-07-05 10:16:58] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 811.639 ms — - bytes
+[2026-07-05 10:16:58] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 1836.594 ms — - bytes
+[2026-07-05 10:16:58] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 261.139 ms — - bytes
+[2026-07-05 10:16:59] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:16:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 423.680 ms — - bytes
+[2026-07-05 10:16:59] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 2422.337 ms — - bytes
+[2026-07-05 10:16:59] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 704.961 ms — - bytes
+[2026-07-05 10:16:59] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:16:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 338.377 ms — - bytes
+[2026-07-05 10:16:59] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 547.055 ms — - bytes
+[2026-07-05 10:16:59] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 716.341 ms — - bytes
+[2026-07-05 10:16:59] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:16:59] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 434.368 ms — - bytes
+[2026-07-05 10:16:59] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 595.619 ms — - bytes
+[2026-07-05 10:17:00] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:17:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 344.011 ms — - bytes
+[2026-07-05 10:17:00] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:17:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 200 324.528 ms — - bytes
+[2026-07-05 10:17:00] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:17:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 200 329.359 ms — - bytes
+[2026-07-05 10:17:00] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 667.639 ms — - bytes
+[2026-07-05 10:17:00] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:17:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 200 305.446 ms — - bytes
+[2026-07-05 10:17:00] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:17:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 304 293.877 ms — - bytes
+[2026-07-05 10:17:00] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:17:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 304 251.750 ms — - bytes
+[2026-07-05 10:17:00] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:17:00] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 409.074 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 200 1263.731 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 200 1342.539 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 304 261.692 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 269.235 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 304 309.314 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 316.731 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 418.924 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 418.268 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 299.355 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 281.683 ms — - bytes
+[2026-07-05 10:17:01] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:17:01] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 329.542 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 303.343 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 375.217 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 357.110 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 413.739 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 365.706 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 335.587 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 307.719 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 274.478 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 246.894 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 238.308 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 249.291 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 222.469 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 215.630 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 306.683 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 293.167 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 287.683 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 317.635 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 321.395 ms — - bytes
+[2026-07-05 10:17:02] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:17:02] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 215.983 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 257.982 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 255.485 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 275.296 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 246.140 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 275.263 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 303.810 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 377.758 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 403.543 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 329.442 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 414.303 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 443.948 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 345.699 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 367.988 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 343.153 ms — - bytes
+[2026-07-05 10:17:03] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:17:03] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 304 375.986 ms — - bytes
+[2026-07-05 10:17:04] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:17:04] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 327.726 ms — - bytes
+[2026-07-05 10:17:04] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:17:04] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 334.108 ms — - bytes
+[2026-07-05 10:17:04] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:17:04] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 362.769 ms — - bytes
+[2026-07-05 10:17:04] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:17:04] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 304 296.226 ms — - bytes
+[2026-07-05 10:17:04] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:17:04] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 317.258 ms — - bytes
+[2026-07-05 10:17:04] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:17:04] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 301.288 ms — - bytes
+[2026-07-05 10:17:04] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:17:04] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 272.884 ms — - bytes
+[2026-07-05 10:18:06] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:18:06] DEBUG: [AuthController] Refreshing access token session
+[2026-07-05 10:18:07] DEBUG: POST /api/v1/auth/refresh 200 1221.769 ms — 700 bytes
+[2026-07-05 10:18:07] DEBUG: POST /api/v1/auth/refresh 200 1317.979 ms — 700 bytes
+[2026-07-05 10:18:08] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:18:08] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 567.215 ms — - bytes
+[2026-07-05 10:18:08] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 623.268 ms — - bytes
+[2026-07-05 10:18:08] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 870.392 ms — - bytes
+[2026-07-05 10:18:09] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:18:09] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 411.258 ms — - bytes
+[2026-07-05 10:18:09] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 397.308 ms — - bytes
+[2026-07-05 10:18:09] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 1041.262 ms — - bytes
+[2026-07-05 10:18:09] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:18:09] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 432.543 ms — - bytes
+[2026-07-05 10:18:09] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 611.351 ms — - bytes
+[2026-07-05 10:18:09] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:18:09] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 341.215 ms — - bytes
+[2026-07-05 10:18:09] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/status 304 758.323 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 874.140 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 439.274 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 434.476 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: [WorkspaceService] File tree built for project 92d2ca8f-9a4c-4cab-9c89-df27ccfb8111
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/files 304 319.984 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 304 349.406 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/chat/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111 304 687.955 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 304 398.791 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/projects/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/git/diff 304 726.728 ms — - bytes
+[2026-07-05 10:18:10] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:18:10] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 304 470.652 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 304 372.295 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 343.889 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/CartDrawer.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCartDrawer.jsx 304 317.263 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/CategoryFilter.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FCategoryFilter.jsx 304 339.302 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/HeroSection.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FHeroSection.jsx 304 442.885 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/MenuCard.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FMenuCard.jsx 304 382.734 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/Navbar.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FNavbar.jsx 304 454.048 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 499.173 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 549.211 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 551.845 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 432.142 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 306.962 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/OrderSummary.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FOrderSummary.jsx 304 244.683 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/ReviewCard.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FReviewCard.jsx 304 254.603 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/components/RootLayout.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcomponents%2FRootLayout.jsx 304 282.701 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/context/CartContext.jsx
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fcontext%2FCartContext.jsx 304 251.711 ms — - bytes
+[2026-07-05 10:18:11] DEBUG: [WorkspaceService] File served: frontend/src/hooks/useCart.js
+[2026-07-05 10:18:11] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fhooks%2FuseCart.js 304 258.086 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 294.420 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 296.436 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 292.352 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 451.173 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 466.089 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/About.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FAbout.jsx 304 402.545 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/Cart.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCart.jsx 304 519.674 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/Checkout.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FCheckout.jsx 304 474.579 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/Home.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FHome.jsx 304 474.209 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/Menu.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenu.jsx 304 435.457 ms — - bytes
+[2026-07-05 10:18:12] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:18:12] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 486.885 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 561.133 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 427.293 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 439.192 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 349.404 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/pages/MenuItemDetail.jsx
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FMenuItemDetail.jsx 304 404.668 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/pages/OrderTracking.jsx
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fpages%2FOrderTracking.jsx 304 348.676 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/services/menuService.js
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FmenuService.js 304 321.811 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/services/orderService.js
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2ForderService.js 304 325.985 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 390.651 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/services/reviewService.js
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fservices%2FreviewService.js 304 442.561 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 374.778 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 397.113 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 363.043 ms — - bytes
+[2026-07-05 10:18:13] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:18:13] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 494.602 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/src/utils/apiClient.js
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Futils%2FapiClient.js 304 346.663 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/src/App.jsx
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2FApp.jsx 304 400.208 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/src/main.jsx
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Fmain.jsx 304 516.173 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/index.html
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Findex.html 304 609.075 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/src/index.css
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fsrc%2Findex.css 304 595.593 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 304 629.725 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 536.678 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 481.020 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 316.742 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/package-lock.json
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage-lock.json 304 278.635 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/package.json
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fpackage.json 304 269.357 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/tailwind.config.js
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Ftailwind.config.js 304 262.756 ms — - bytes
+[2026-07-05 10:18:14] DEBUG: [WorkspaceService] File served: frontend/vite.config.js
+[2026-07-05 10:18:14] DEBUG: GET /api/v1/workspace/92d2ca8f-9a4c-4cab-9c89-df27ccfb8111/file?path=frontend%2Fvite.config.js 304 265.505 ms — - bytes
+[2026-07-05 10:22:44] DEBUG: GET /api/menu 404 0.904 ms — 71 bytes
+[2026-07-05 10:22:44] DEBUG: GET /api/menu 404 0.316 ms — 71 bytes
+[2026-07-05 10:22:54] DEBUG: GET /api/menu 404 0.410 ms — 71 bytes
+[2026-07-05 10:22:54] DEBUG: GET /api/categories 404 0.561 ms — 77 bytes
+[2026-07-05 10:22:54] DEBUG: GET /api/menu 404 0.681 ms — 71 bytes
+[2026-07-05 10:22:54] DEBUG: GET /api/categories 404 0.558 ms — 77 bytes
+[2026-07-05 10:22:56] DEBUG: GET /api/menu 404 0.434 ms — 71 bytes
+[2026-07-05 10:22:56] DEBUG: GET /api/menu 404 0.437 ms — 71 bytes
